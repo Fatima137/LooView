@@ -3,7 +3,6 @@ import type { NextRequest } from 'next/server';
 
 // Add paths that should be protected (require authentication)
 const protectedPaths = [
-  '/profile',
   '/admin',
   // Add more protected paths here
 ];

@@ -17,21 +17,80 @@ import { doc, getDoc } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 
 export default function ProfilePage() {
-  const { t } = useLocale();
+  const { t, language } = useLocale();
   const { authUser } = useAuth();
   const [profile, setProfile] = useState<any>(null);
   const [isClient, setIsClient] = useState(false);
+  const [formattedDate, setFormattedDate] = useState('N/A');
+
+  // Helper function to map app language codes to date-fns locale objects
+  const getLocale = async (langCode: string) => {
+    switch (langCode) {
+      case 'en': return (await import('date-fns/locale/en-US')).default;
+      case 'nl': return (await import('date-fns/locale/nl')).default;
+      case 'es': return (await import('date-fns/locale/es')).default;
+      case 'fr': return (await import('date-fns/locale/fr')).default;
+      case 'de': return (await import('date-fns/locale/de')).default;
+      case 'jp': return (await import('date-fns/locale/ja')).default;
+      case 'pt-BR': return (await import('date-fns/locale/pt-BR')).default;
+      default: return (await import('date-fns/locale/en-US')).default;
+    }
+  };
 
   useEffect(() => {
     setIsClient(true);
     async function fetchProfile() {
-      if (!authUser) return;
+      if (!authUser) {
+        // If no auth user, show default profile
+        setProfile({
+          id: 'default_user',
+          displayName: 'Welcome to LooView',
+          email: 'Sign in to see your profile',
+          joinedAt: new Date().toISOString(),
+          contributions: 0,
+          isAdmin: false,
+          profilePhotoUrl: 'https://picsum.photos/seed/default/200/200',
+          bio: 'Join our community of toilet reviewers and start sharing your experiences!'
+        });
+        return;
+      }
+
       const docRef = doc(db, "users", authUser.uid);
       const docSnap = await getDoc(docRef);
-      if (docSnap.exists()) setProfile(docSnap.data());
+      if (docSnap.exists()) {
+        setProfile(docSnap.data());
+      } else {
+        // If user is authenticated but no profile exists, show their auth details
+        setProfile({
+          id: authUser.uid,
+          displayName: authUser.displayName || 'New LooViewer',
+          email: authUser.email || 'user@looview.com',
+          joinedAt: new Date().toISOString(),
+          contributions: 0,
+          isAdmin: false,
+          profilePhotoUrl: authUser.photoURL || 'https://picsum.photos/seed/newuser/200/200',
+          bio: 'Welcome to LooView! Start your journey by reviewing your first toilet.'
+        });
+      }
     }
     fetchProfile();
   }, [authUser]);
+
+  useEffect(() => {
+    async function formatDate() {
+      if (!profile?.joinedAt) return;
+      
+      try {
+        const locale = await getLocale(language.code);
+        const formatted = format(new Date(profile.joinedAt), 'PPP', { locale });
+        setFormattedDate(formatted);
+      } catch (error) {
+        console.error('Error formatting date:', error);
+        setFormattedDate('N/A');
+      }
+    }
+    formatDate();
+  }, [profile?.joinedAt, language.code]);
 
   if (!isClient || !profile) {
     return (
@@ -39,25 +98,6 @@ export default function ProfilePage() {
         <p>{t('profile.loading')}</p>
       </div>
     );
-  }
-
-  const formattedJoinedDate = profile.joinedAt ? format(new Date(profile.joinedAt), 'PPP', {
-    locale: languageToDateFnsLocale(useLocale().language.code)
-  }) : 'N/A';
-
-  // Helper function to map app language codes to date-fns locale objects if needed
-  // This is a simplified version; a more robust solution might be required for full coverage
-  function languageToDateFnsLocale(langCode: string) {
-    switch (langCode) {
-      case 'en': return import('date-fns/locale/en-US').then(mod => mod.default);
-      case 'nl': return import('date-fns/locale/nl').then(mod => mod.default);
-      case 'es': return import('date-fns/locale/es').then(mod => mod.default);
-      case 'fr': return import('date-fns/locale/fr').then(mod => mod.default);
-      case 'de': return import('date-fns/locale/de').then(mod => mod.default);
-      case 'jp': return import('date-fns/locale/ja').then(mod => mod.default);
-      case 'pt-BR': return import('date-fns/locale/pt-BR').then(mod => mod.default);
-      default: return import('date-fns/locale/en-US').then(mod => mod.default);
-    }
   }
 
   return (
@@ -91,7 +131,7 @@ export default function ProfilePage() {
                 <Award size={16} className="mr-1.5 text-accent" /> {profile.badge}
               </Badge>
             )}
-            <p className="text-muted-foreground mt-1">{t('profile.bioPlaceholder')}</p>
+            <p className="text-muted-foreground mt-1">{profile.bio || t('profile.bioPlaceholder')}</p>
           </CardContent>
 
           <div className="px-6 pb-6 space-y-6">
@@ -102,7 +142,7 @@ export default function ProfilePage() {
               </div>
               <div className="flex items-center text-muted-foreground">
                 <CalendarDays size={16} className="mr-2 text-primary" />
-                <span>{t('profile.joinedLabel')} {formattedJoinedDate}</span>
+                <span>{t('profile.joinedLabel')} {formattedDate}</span>
               </div>
               <div className="flex items-center text-muted-foreground">
                 <Award size={16} className="mr-2 text-primary" />
