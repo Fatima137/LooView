@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 220 30% 97%; /* Light Grey (near #F9FAFB) */
+    --foreground: 220 15% 20%; /* Dark Grey-Blue (near #1F2937) */
+
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 220 15% 20%; /* Dark Grey-Blue */
+
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 220 15% 20%; /* Dark Grey-Blue */
+
+    --primary: 224 76% 48%; /* Royal Blue (#2563EB) */
+    --primary-foreground: 0 0% 100%; /* White */
+
+    --secondary: 220 25% 95%; /* Very Light Grey (near #F1F5F9) */
+    --secondary-foreground: 224 76% 38%; /* Darker Royal Blue */
+
+    --muted: 220 20% 90%; /* Muted Light Grey */
+    --muted-foreground: 220 10% 45%; /* Medium Grey */
+
+    --accent: 45 95% 51%; /* Warm Yellow (#FACC15) */
+    --accent-foreground: 45 100% 15%; /* Dark Brown for text on yellow */
+
+    --destructive: 0 90% 71%; /* Playful Red/Pink (#F87171) */
+    --destructive-foreground: 0 0% 100%; /* White */
+    
+    --success: 160 80% 35%; /* Green-Blue (#10B981) */
+    --success-foreground: 0 0% 100%; /* White */
+
+    --border: 220 15% 88%; /* Light Grey Border */
+    --input: 220 15% 88%; /* Light Grey Input Background */
+    --ring: 224 76% 58%; /* Lighter Royal Blue for focus rings */
+
+    --chart-1: 224 76% 48%; /* Primary Blue for Stat Card 1 */
+    --chart-2: 160 80% 35%; /* Green-Blue for Stat Card 2 */
+    --chart-3: 27 87% 60%;  /* Orange for Stat Card 3 */
+    --chart-4: 45 95% 51%;  /* Accent Yellow for Stat Card 4 */
+    --chart-5: 260 60% 55%; /* Purple for other chart uses */
+    --radius: 0.5rem;
+
+    /* Sidebar specific colors, harmonized with new theme */
+    --sidebar-background: 220 30% 98%; 
+    --sidebar-foreground: 220 15% 25%;
+    --sidebar-primary: 224 76% 48%; /* Main primary */
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 30% 94%; /* Lighter grey for hover */
+    --sidebar-accent-foreground: 224 76% 48%; /* Primary on hover */
+    --sidebar-border: 220 15% 90%;
+    --sidebar-ring: 224 76% 58%; /* Main ring color */
+  }
+
+  .dark {
+    --background: 220 15% 10%; /* Darker Grey-Blue */
+    --foreground: 220 25% 95%; /* Light Grey */
+
+    --card: 220 15% 15%; /* Slightly Lighter Dark Grey */
+    --card-foreground: 220 25% 95%;
+
+    --popover: 220 15% 15%;
+    --popover-foreground: 220 25% 95%;
+
+    --primary: 224 76% 58%; /* Lighter Royal Blue for dark mode */
+    --primary-foreground: 0 0% 100%; 
+
+    --secondary: 220 15% 20%; /* Darker Grey for sections */
+    --secondary-foreground: 224 76% 70%; /* Lighter primary for text on dark secondary */
+
+    --muted: 220 15% 25%; /* Dark Muted Grey */
+    --muted-foreground: 220 10% 65%; /* Lighter Muted Grey */
+
+    --accent: 45 95% 60%; /* Lighter Warm Yellow for dark mode */
+    --accent-foreground: 45 100% 10%; 
+
+    --destructive: 0 80% 65%; /* Slightly desaturated playful Red/Pink */
+    --destructive-foreground: 0 0% 98%;
+    
+    --success: 160 70% 45%; /* Slightly desaturated Green-Blue */
+    --success-foreground: 0 0% 98%;
+
+    --border: 220 15% 30%; /* Dark Grey Border */
+    --input: 220 15% 30%; 
+    --ring: 224 76% 65%; 
+
+    --chart-1: 224 76% 58%;
+    --chart-2: 160 70% 45%;
+    --chart-3: 27 80% 65%;
+    --chart-4: 45 95% 60%;
+    --chart-5: 260 50% 60%;
+
+    /* Sidebar specific colors for dark mode */
+    --sidebar-background: 220 15% 12%;
+    --sidebar-foreground: 220 25% 92%;
+    --sidebar-primary: 224 76% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 15% 20%;
+    --sidebar-accent-foreground: 224 76% 58%;
+    --sidebar-border: 220 15% 25%;
+    --sidebar-ring: 224 76% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    min-height: 100vh;
+  }
+}

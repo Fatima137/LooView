@@ -1,0 +1,643 @@
+
+{
+  "header": {
+    "shareExperience": "Deel Je Ervaring",
+    "selectLanguage": "Selecteer Taal",
+    "loginButton": "Inloggen",
+    "logoutButton": "Uitloggen",
+    "profileLink": "Mijn Profiel",
+    "adminConsoleLink": "Admin Console",
+    "loginRequiredTitle": "Inloggen Vereist",
+    "loginRequiredDescriptionShare": "Log in om je ervaring te delen.",
+    "logoutSuccessTitle": "Uitgelogd",
+    "logoutSuccessDescription": "Je bent succesvol uitgelogd.",
+    "logoutErrorTitle": "Uitlog Fout"
+  },
+  "hero": {
+    "title": "💩 Beoordeel 's Werelds Beste & Slechtste Potten",
+    "subtitle": "No more 💀 poop roulette. Snap the stalls, spill the tea, save someone's behind.",
+    "welcome": "🚽 Welkom bij LooView — Beoordeel. Fotografeer. Spoel door.",
+    "description": "Moe van mysterieuze toiletbezoekjes? Help de wereld schone tronen te vinden en enge hokjes te onthullen. Met LooView kun je gemakkelijk toiletten over de hele wereld toevoegen en beoordelen. Of het nu een 5-sterren hotel poederkamer is of een horrorfilm benzinestation hokje — jouw review telt.",
+    "browseButton": "Speur naar een Fatsoenlijk Toilet",
+    "shareButton": "Ontmasker een Walgelijk Hokje",
+    "saveButtsButton": "Start Vandaag Nog Billen te Redden",
+    "previousSlide": "Vorige Slide",
+    "nextSlide": "Volgende Slide",
+    "goToSlide": "Ga naar slide {{slideNum}}",
+    "slideAlt": "Hero achtergrondafbeelding voor slide {{slideNum}}: {{context}}",
+    "slide2": {
+      "title": "Doe Mee met de LooVolutie!",
+      "subtitle": "Jouw inzichten maken een wereld van verschil. Deel je vondsten en help anderen.",
+      "description": "LooView wordt mogelijk gemaakt door mensen zoals jij. Elke toegevoegde wc, elke geschreven review, helpt bij het opbouwen van een wereldwijde kaart van betrouwbare toiletten. Word een LooLegend!",
+      "cta1": "Deel Je Eerste Loo",
+      "cta2": "Bekijk Top Bijdragers"
+    },
+    "slide3": {
+      "titleNew": "Jouw Troon Wacht. Of een Biologisch Gevaar. Check het Eerst.",
+      "subtitleNew": "Verdwaald in de stadsjungle of diep in het bos? LooView: jouw kompas naar comfort.",
+      "descriptionNew": "Is het een vijfsterren-spoeling of een éénster-stank? Onze filters snijden door de bullshit. Letterlijk. Toegankelijk? Babyvriendelijk? Gewoon overleefbaar? Wij helpen je. Het avontuur roept – laat een dubieuze plee je niet stoppen.",
+      "cta1": "Verken de Wereldkaart",
+      "cta2": "Leer Over Functies"
+    }
+  },
+  "landing": {
+    "recentlySpotted": {
+      "title": "Recent Gespotte LooViews",
+      "noToilets": "Nog geen LooViews gespot. Wees de eerste die er een toevoegt!"
+    },
+    "stats": {
+      "title": "LooView in Cijfers",
+      "toiletsRated": "Toiletten Beoordeeld",
+      "countriesCovered": "Landen Gedekt",
+      "reviewsShared": "Reviews Gedeeld",
+      "photosUploaded": "Foto's Geüpload"
+    },
+    "photoStrip": {
+      "titlePart1": "Van Tokio tot Toronto: Het Goede, Het Slechte, en",
+      "titlePart2": "Het Porselein.",
+      "alt": "Door gebruiker geüploade foto voor {{name}}",
+      "placeholder": "Binnenkort meer foto's!"
+    },
+    "mapPreview": {
+      "title": "Ontdek LooViews op de Kaart",
+      "button": "Bekijk Wereldkaart",
+      "fullMapAlert": "Navigeren naar volledige kaart (functie nog te implementeren)."
+    },
+    "recentReviews": {
+      "title": "Vers van de Pot"
+    },
+    "topToilets": {
+      "title": "Top Toiletten Deze Week"
+    },
+    "dirtiestToilets": {
+      "title": "Vieste Potten Deze Week",
+      "viewDetailsButton": "Bekijk Details (Als Je Durft)"
+    },
+    "leaderboard": {
+      "title": "Top LooTesters",
+      "cardTitle": "Top Bijdragers",
+      "noContributors": "Nog geen top bijdragers uit {{countryName}}. Wees de eerste!",
+      "contributionsAriaLabel": "bijdragen icoon"
+    },
+    "whyContribute": {
+      "title": "🚽 Klap uit de School: Waarom Jouw Loo Reviews Rocken!",
+      "point1": {
+        "title": "Wees een Hygiëne Held ✨",
+        "description": "Jouw beoordelingen spoelen het vuil weg & verhogen de standaard voor openbare toiletten. Elke ster maakt een wereld van verschil!"
+      },
+      "point2": {
+        "title": "Gids Globetrotters & Locals 🗺️",
+        "description": "Help medemensen—van wereldreizigers tot dagelijkse pendelaars—een waardige troon te vinden als de natuur roept."
+      },
+      "point3": {
+        "title": "Leg Toilet Curiositeiten Vast 📸",
+        "description": "Van paleisachtige potten tot eigenaardig leidingwerk, documenteer de unieke, bizarre, en 'dit-moet-je-zien' toilet ervaringen."
+      }
+    },
+    "footer": {
+      "about": {
+        "title": "💩 Wat is LooView?",
+        "description": "Beoordeel. Fotografeer. Spoel door. Van Tokio tot Toronto — help de wereld openbare toiletten te vinden (en te overleven)."
+      },
+      "explore": {
+        "title": "🗺️ Ontdek",
+        "mission": "Onze Missie",
+        "pressKit": "Persmap",
+        "faqSupport": "FAQ / Support",
+        "funFacts": "Toiletweetjes"
+      },
+      "community": {
+        "title": "👨‍👩‍👧‍👦 Community",
+        "leaderboard": "Ranglijst",
+        "suggestFeature": "Functie Voorstellen",
+        "guidelines": "Community Richtlijnen"
+      },
+      "language": {
+        "title": "🌍 Taal",
+        "placeholder": "Selecteer Taal"
+      },
+      "connect": {
+        "title": "Volg Ons",
+        "twitter": "Volg ons op Twitter",
+        "github": "Volg ons op GitHub",
+        "linkedin": "Volg ons op LinkedIn"
+      },
+      "rightsReserved": "Alle rechten voorbehouden.",
+      "tagline": "Met 💙 en een scheutje 💩 gemaakt in Amsterdam — want iedereen heeft wel eens een plek beoordeeld op z'n toilet."
+    },
+    "share": {
+      "textBase": "Bekijk dit toilet op LooView: {{name}}. Beoordeling: {{rating}}/5.",
+      "textAddress": "Gelegen te: {{address}}.",
+      "textReview": "Review: \"{{review}}\"",
+      "ariaLabel": "Deel toilet",
+      "ariaLabelReview": "Deel review"
+    },
+    "toiletPhotoAlt": "Foto van {{name}}",
+    "locationFallback": "Lat: {{lat}}, Lng: {{lng}}",
+    "readMore": "Lees meer",
+    "locationDetailsUnavailable": "Locatie details niet beschikbaar",
+    "reviewCount": "{{count}} Reviews",
+    "seeDetails": "Bekijk Details",
+    "viewDetails": "Bekijk Details"
+  },
+  "toast": {
+    "shareSuccessTitle": "Succesvol gedeeld!",
+    "shareSuccessDescriptionLinkCopied": "Deellink gekopieerd naar klembord.",
+    "shareErrorCopyFailedTitle": "Link kopiëren mislukt",
+    "shareErrorCopyFailedDescription": "Kon link niet naar klembord kopiëren.",
+    "shareErrorBlockedTitle": "Delen Geblokkeerd",
+    "shareErrorBlockedDescription": "Kon niet delen. Controleer browser-/OS-machtigingen. Link als fallback naar klembord gekopieerd.",
+    "shareErrorGenericTitle": "Kon niet delen",
+    "shareErrorGenericDescription": "Er is een onverwachte fout opgetreden. Probeer het later opnieuw."
+  },
+  "toiletDetails": {
+    "ratingTitle": "Beoordeling",
+    "reviewTitle": "Review",
+    "quickTagsTitle": "Snelle Tags",
+    "featuresTitle": "Voorzieningen",
+    "locationTitle": "Locatie",
+    "locationCoordinates": "Lat: {{lat}}, Lng: {{lng}}",
+    "closeButton": "Sluiten",
+    "shareButton": "Delen"
+  },
+  "about": {
+    "missionTitle": "Onze Missie bij LooView",
+    "missionSubtitle": "Transparantie, humor en gemeenschap brengen in de wereld van openbare toiletten. Want een goed toilet vinden zou geen gok moeten zijn.",
+    "dailyDilemmaTitle": "🤔 Het Dagelijkse Dilemma: Waarom LooView?",
+    "dailyDilemmaP1": "Ooit in de knel gezeten, wanhopig op zoek naar een fatsoenlijk openbaar toilet? Dat universele gevoel van onzekerheid – de \"toiletgok\" – is waarom LooView is ontstaan. Wij geloven dat toegang tot schone, veilige en betrouwbare toiletinformatie een basisbehoefte is, vooral als je onderweg bent, reist of specifieke toegankelijkheidsvereisten hebt.",
+    "dailyDilemmaP2": "Traditionele kaarten vertellen niet het hele verhaal. Is het schoon? Is er toiletpapier? Is het toegankelijk? LooView vult dit gat met echte, door gebruikers gegenereerde reviews en foto's.",
+    "coreBeliefsTitle": "✨ Onze Kerngedachten",
+    "belief": {
+      "transparency": {
+        "title": "Transparantie Schittert",
+        "text": "Eerlijke, ongefilterde reviews en foto's geven het echte beeld. Geen nare verrassingen meer!"
+      },
+      "community": {
+        "title": "Gedreven door de Gemeenschap",
+        "text": "Elke bijdrage, groot of klein, helpt mede-LooViewers met meer vertrouwen door de wereld te navigeren."
+      },
+      "accessibility": {
+        "title": "Toegankelijkheid voor Iedereen",
+        "text": "Het benadrukken van toegankelijke faciliteiten is cruciaal. We streven ernaar het vinden van geschikte toiletten voor iedereen gemakkelijker te maken."
+      },
+      "hygiene": {
+        "title": "Hygiëne Promoten",
+        "text": "Door te beoordelen en te reviewen, pleit onze gemeenschap wereldwijd voor betere normen voor openbare toiletten."
+      },
+      "global": {
+        "title": "Wereldwijd Bereik, Lokale Impact",
+        "text": "Van je buurtcafé tot een verre reisbestemming, LooView is er."
+      },
+      "humor": {
+        "title": "Een Vleugje Humor",
+        "text": "Laten we eerlijk zijn, toiletpraat kan grappig zijn! We omarmen de lichtere kant van deze essentiële zoektocht."
+      }
+    },
+    "howItWorksTitle": "🛠️ Hoe LooView Werkt: Beoordeel. Fotografeer. Spoel door.",
+    "howItWorksP1": "LooView is een platform gedreven door de gemeenschap. Gebruikers zoals jij vormen het hart van onze missie.",
+    "howItWorksLi1": "<strong>Ontdek:</strong> Bekijk nabijgelegen toiletten op onze interactieve kaart, filter op voorzieningen en lees reviews.",
+    "howItWorksLi2": "<strong>Draag bij:</strong> Een nieuw toilet gevonden? Voeg het toe! Een ervaring gehad? Deel je beoordeling, review en foto's.",
+    "howItWorksLi3": "<strong>Versterk:</strong> Jouw bijdragen helpen anderen geïnformeerde beslissingen te nemen en moedigen etablissementen aan hun faciliteiten te verbeteren.",
+    "howItWorksP2": "Het is simpel: hoe meer we delen, hoe beter de LooView-ervaring voor iedereen wordt.",
+    "joinMovementTitle": "🙌 Doe Mee met de LooVolutie!",
+    "joinMovementP1": "Klaar om een verschil te maken, één spoelbeurt per keer? Jouw inzichten kunnen miljoenen helpen. Begin met het toevoegen van je eerste review of ontdek geweldige (en minder geweldige) toiletten bij jou in de buurt.",
+    "joinMovementButtonShare": "Deel Jouw Loo Ervaring",
+    "joinMovementButtonExplore": "Ontdek Nu Toiletten"
+  },
+  "pressKit": {
+    "title": "LooView Persmap",
+    "subtitle": "Alles wat je moet weten over LooView, de revolutionaire app voor het vinden en beoordelen van openbare toiletten wereldwijd.",
+    "logoAlt": "LooView Officieel Logo",
+    "about": {
+      "title": "Over LooView",
+      "p1": "LooView is een community-gedreven platform dat mensen helpt schone, veilige en betrouwbare openbare toiletten te vinden. Wij geloven dat toegang tot goede toiletvoorzieningen een basisbehoefte is, en onze missie is om deze informatie voor iedereen, overal gemakkelijk toegankelijk te maken.",
+      "p2": "Met een mix van door gebruikers gegenereerde reviews, foto's en gedetailleerde feature-tagging, streeft LooView ernaar het giswerk weg te nemen bij het vinden van een geschikt toilet, of je nu in je eigen stad bent of de wereld rondreist. We injecteren ook een beetje humor in het vaak taboe-onderwerp van toiletten, want waarom niet?"
+    },
+    "features": {
+      "title": "Belangrijkste Functies",
+      "feature1": {
+        "title": "Beoordeel, Fotografeer, Spoel door",
+        "description": "Gebruikers kunnen gemakkelijk toiletten beoordelen, foto's uploaden en gedetailleerde reviews over hun ervaringen delen."
+      },
+      "feature2": {
+        "title": "Interactieve Kaart",
+        "description": "Ontdek toiletten in de buurt met onze intuïtieve kaart, compleet met filters voor functies zoals toegankelijkheid en babyverschoonruimtes."
+      },
+      "feature3": {
+        "title": "Community Gedreven",
+        "description": "Ons platform bloeit dankzij gebruikersbijdragen, waardoor een constant bijgewerkte en betrouwbare bron voor iedereen ontstaat."
+      }
+    },
+    "assets": {
+      "title": "Merkmaterialen",
+      "logos": {
+        "title": "Logo's",
+        "description": "Download onze officiële logo's in verschillende formaten.",
+        "logo1Alt": "LooView Primair Logo",
+        "logo1Label": "Primair Logo (voor lichte achtergronden)",
+        "logo2Alt": "LooView Secundair Logo",
+        "logo2Label": "Omgekeerd Logo (voor donkere achtergronden)",
+        "downloadButton": "Download Logopakket"
+      },
+      "colors": {
+        "title": "Kleurenpalet",
+        "description": "Onze officiële merkkleuren."
+      }
+    },
+    "team": {
+      "title": "Ons Verhaal & Team",
+      "subtitle": "De Spoelkracht Achter LooView",
+      "p1": "LooView is ontstaan uit een simpele, universele behoefte: een fatsoenlijk toilet vinden als je onderweg bent. Ons team is gepassioneerd over het creëren van een nuttig, boeiend en ietwat eigenzinnig platform dat een echt verschil maakt in het dagelijks leven en de reizen van mensen. Wij zijn een kleine, toegewijde groep ontwikkelaars, ontwerpers en toiletliefhebbers die zich inzetten voor het verbeteren van de transparantie van openbare toiletten wereldwijd.",
+      "learnMoreButton": "Lees Meer Over Onze Missie"
+    },
+    "contact": {
+      "title": "Neem Contact Op",
+      "description": "Voor mediavragen, samenwerkingsmogelijkheden of gewoon om hallo te zeggen, neem contact met ons op.",
+      "email": "pers@looview.com",
+      "emailButton": "E-mail Ons",
+      "faqButton": "Bezoek FAQ / Support"
+    },
+    "news": {
+      "title": "In Het Nieuws",
+      "placeholder": "We maken furore! Kom snel terug voor onze laatste mediameldingen."
+    }
+  },
+  "support": {
+    "hero": {
+      "title": "Hulp Nodig? We Staan Voor Je Klaar!",
+      "subtitle": "Vind antwoorden op veelgestelde vragen, leer hoe je kunt bijdragen, of neem contact op met ons supportteam."
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "description": "Heb je een vraag? Grote kans dat iemand anders hem ook al gesteld heeft! Bekijk onze FAQs.",
+      "item1": {
+        "question": "Hoe voeg ik een nieuw toilet toe aan LooView?",
+        "answer": "Peulenschil! Klik gewoon op de 'Deel Je Ervaring' of 'Toilet Toevoegen' knop, vul de details in zoals naam, locatie (je kunt de kaart gebruiken!), voorzieningen en je beoordeling. Een foto helpt ook! Hoe meer info, hoe beter voor iedereen."
+      },
+      "item2": {
+        "question": "Kan ik een toilet dat ik heb toegevoegd of een review die ik heb geschreven bewerken?",
+        "answer": "Momenteel is het direct bewerken van inzendingen niet beschikbaar. Als je een significante fout hebt gemaakt, neem dan contact op met support met de details, en we helpen je verder. We werken eraan om bewerkingen in de toekomst makkelijker te maken!"
+      },
+      "item3": {
+        "question": "Wat voor soort foto's moet ik uploaden?",
+        "answer": "Laat ons de realiteit zien! Schoon of rommelig, we willen het zien. Goede foto's tonen het toilet zelf, de wastafel, de algehele netheid en eventuele speciale voorzieningen (zoals een babyverschoonstation of toegankelijkheidshulpmiddelen). Vermijd alsjeblieft foto's met mensen erop om privacyredenen."
+      },
+      "item4": {
+        "question": "Hoe wordt de gemiddelde beoordeling berekend?",
+        "answer": "De gemiddelde beoordeling is een eenvoudig gemiddelde van alle gebruikersbeoordelingen voor dat specifieke toilet. Meer reviews leiden tot een nauwkeuriger gemiddelde, dus blijf ze insturen!"
+      },
+      "item5": {
+        "question": "Ik heb een ongepaste review of foto gevonden. Wat moet ik doen?",
+        "answer": "Meld dit alsjeblieft onmiddellijk! Gebruik de 'Probleem Melden' functie (details hieronder) of neem direct contact met ons op. We nemen de veiligheid van de community en de geschiktheid van content zeer serieus."
+      }
+    },
+    "contact": {
+      "title": "Nog Steeds Hulp Nodig? Neem Contact Op!",
+      "email": {
+        "title": "E-mail Support",
+        "description": "Voor algemene vragen, supportverzoeken of feedback.",
+        "address": "support@looview.com",
+        "responseInfo": "We streven ernaar binnen 24-48 kantooruren te reageren.",
+        "button": "Stuur ons een E-mail"
+      },
+      "community": {
+        "title": "Community Forum",
+        "description": "Stel vragen, deel tips en kom in contact met andere LooViewers.",
+        "forumInfo": "Ons community forum is een geweldige plek om hulp te krijgen van medegelovigen of LooView-functies te bespreken.",
+        "button": "Bezoek Community Forum"
+      }
+    },
+    "reportProblem": {
+      "title": "Meld een Probleem",
+      "description": "Een probleem gespot met een vermelding, review of de app zelf?",
+      "instructions": "Geef alsjeblieft zoveel mogelijk details, inclusief de toiletnaam/locatie indien van toepassing, en een beschrijving van het probleem.",
+      "button": "Meld een Probleem",
+      "microcopy": "Help ons de troon schoon te houden."
+    },
+    "featureRequest": {
+        "title": "Stel een Functie Voor",
+        "description": "Heb je een briljant idee om LooView nog beter te maken?",
+        "instructions": "We horen graag je suggesties! Laat ons weten welke functies je graag zou willen zien.",
+        "button": "Stel een Functie Voor",
+        "microcopy": "Jouw geniale ingeving kan onze volgende update inspireren!"
+    },
+    "resources": {
+      "title": "Handige Bronnen",
+      "description": "Ontdek meer over LooView en onze community.",
+      "aboutLink": "Over LooView",
+      "guidelinesLink": "Community Richtlijnen",
+      "pressKitLink": "Persmap"
+    }
+  },
+  "leaderboard": {
+    "pageTitle": "LooView Kampioenen",
+    "pageSubtitle": "Zie wie de concurrentie wegspoelt en LooView legendarisch maakt!",
+    "global": {
+      "title": "Wereldwijde Ranglijst",
+      "description": "De meest toegewijde wc-reviewers ter wereld.",
+      "rank": "Rang",
+      "user": "Gebruiker",
+      "contributions": "Bijdragen",
+      "country": "Land",
+      "badge": "Badge"
+    },
+    "byCountry": {
+      "title": "Nationale Helden",
+      "description": "Top bijdragers uit elk land.",
+      "selectCountry": "Selecteer een Land"
+    },
+    "hallOfFame": {
+      "title": "Eregalerij",
+      "description": "Legenden die een blijvende impact hebben gemaakt op LooView."
+    },
+    "noContributors": "Nog geen top bijdragers in deze categorie. Wees de eerste!",
+    "medals": {
+      "gold": "Gouden Medaille",
+      "silver": "Zilveren Medaille",
+      "bronze": "Bronzen Medaille"
+    }
+  },
+  "profile": {
+    "pageTitle": "Mijn LooView Profiel",
+    "loading": "Profiel laden...",
+    "editProfile": "Profiel Bewerken",
+    "displayName": "Weergavenaam",
+    "email": "E-mail",
+    "joinedLabel": "Lid sinds:",
+    "contributionsLabel": "Bijdragen",
+    "recentActivityTitle": "Recente Activiteit",
+    "recentActivityPlaceholder": "Je recente reviews en toegevoegde toiletten verschijnen hier.",
+    "viewAllActivity": "Alle Activiteit Bekijken",
+    "settingsTitle": "Instellingen",
+    "settingsPlaceholder": "Beheer hier je accountinstellingen en voorkeuren.",
+    "manageSettings": "Instellingen Beheren",
+    "bannerAlt": "Profiel banner afbeelding",
+    "bioPlaceholder": "Toiletontdekker en recensent buitengewoon!",
+    "roleAdmin": "Beheerder",
+    "roleUser": "LooViewer"
+  },
+  "login": {
+    "title": "Welkom Terug bij LooView!",
+    "description": "Log in om je reis van het ontdekken en beoordelen van toiletten voort te zetten.",
+    "emailLabel": "E-mailadres",
+    "emailPlaceholder": "jij@voorbeeld.com",
+    "passwordLabel": "Wachtwoord",
+    "passwordPlaceholder": "••••••••",
+    "submitButton": "Inloggen",
+    "loadingButton": "Inloggen...",
+    "forgotPasswordLink": "Wachtwoord vergeten?",
+    "noAccountPrompt": "Nog geen account?",
+    "signUpLink": "Registreren",
+    "successTitle": "Inloggen Gelukt!",
+    "successDescription": "Welkom terug! Je bent nu ingelogd.",
+    "errorTitle": "Inloggen Mislukt",
+    "errorInvalidCredentials": "Ongeldig e-mailadres of wachtwoord. Probeer het opnieuw.",
+    "errorDefault": "Er is een onverwachte fout opgetreden. Probeer het later opnieuw."
+  },
+  "signup": {
+    "title": "Word Lid van de LooView Crew!",
+    "description": "Maak een account aan om te beginnen met het beoordelen, fotograferen en doorspoelen van 's werelds WC's.",
+    "displayNameLabel": "Weergavenaam",
+    "displayNamePlaceholder": "ToiletLegende27",
+    "emailLabel": "E-mailadres",
+    "emailPlaceholder": "jij@voorbeeld.com",
+    "passwordLabel": "Wachtwoord",
+    "passwordPlaceholder": "•••••••• (min. 6 tekens)",
+    "confirmPasswordLabel": "Bevestig Wachtwoord",
+    "confirmPasswordPlaceholder": "••••••••",
+    "submitButton": "Account Aanmaken",
+    "loadingButton": "Account Aanmaken...",
+    "errorDisplayNameMin": "Weergavenaam moet minimaal 3 tekens lang zijn.",
+    "errorDisplayNameMax": "Weergavenaam mag maximaal 50 tekens lang zijn.",
+    "errorEmailInvalid": "Voer een geldig e-mailadres in.",
+    "errorPasswordMin": "Wachtwoord moet minimaal 6 tekens lang zijn.",
+    "errorPasswordMismatch": "Wachtwoorden komen niet overeen. Voer opnieuw in.",
+    "errorEmailInUse": "Dit e-mailadres is al in gebruik. Probeer in te loggen of gebruik een ander e-mailadres.",
+    "errorWeakPassword": "Wachtwoord is te zwak. Kies een sterker wachtwoord.",
+    "errorDefault": "Er is een onverwachte fout opgetreden. Probeer het later opnieuw.",
+    "successTitle": "Account Aangemaakt!",
+    "successDescription": "Welkom bij LooView! Je bent nu klaar om te verkennen.",
+    "loginPrompt": "Heb je al een account?",
+    "loginLink": "Log Hier In"
+  },
+  "forgotPassword": {
+    "title": "Wachtwoord Vergeten?",
+    "description": "Geen zorgen! Voer je e-mailadres in en we sturen je een link om het opnieuw in te stellen.",
+    "emailLabel": "E-mailadres",
+    "emailPlaceholder": "jij@voorbeeld.com",
+    "submitButton": "Reset Link Versturen",
+    "loadingButton": "Versturen...",
+    "loginLink": "Terug naar Inloggen",
+    "noAccountPrompt": "Nog geen account?",
+    "signUpLink": "Registreren",
+    "successTitle": "Reset Link Verzonden!",
+    "successDescription": "Als er een account bestaat voor {{email}}, ontvang je een e-mail met instructies om je wachtwoord opnieuw in te stellen.",
+    "errorTitle": "Reset Mislukt",
+    "errorUserNotFound": "Geen account gevonden met dit e-mailadres.",
+    "errorEmailInvalid": "Voer een geldig e-mailadres in.",
+    "errorDefault": "Er is een onverwachte fout opgetreden. Probeer het later opnieuw."
+  },
+  "addToilet": {
+    "section": {
+      "location": { "title": "Locatie Details" },
+      "access": { "title": "Locatie & Toegang Info" },
+      "accessibility": { "title": "Toegankelijkheid" },
+      "toiletType": { "title": "🚽 Soorten Tronen", "description": "Selecteer alle aanwezige toilet types." },
+      "features": { "title": "🧩 Extra's Beschikbaar", "description": "Tag de beschikbare extra's. Zweef voor hints!" },
+      "ratingReview": { "title": "Beoordeling & Review" },
+      "quickTags": { "title": "🧻 Quick Tags – Hoe was het?" },
+      "photo": { "title": "Foto Upload" }
+    },
+    "field": {
+      "name": { "label": "Naam Toilet*", "tooltip": "Dit helpt anderen de plek snel te herkennen — wees beschrijvend.", "description": "Geef het een naam die mensen zullen herkennen.", "placeholder": "bijv., Starbucks, Centraal Station" },
+      "address": { "label": "Adres (Optioneel)", "description": "Indien bekend, typ het adres. De kaart zal updaten.", "placeholder": "bijv., Hoofdstraat 123, Amsterdam" },
+      "locationMap": { "label": "Locatie op Kaart*" },
+      "latitude": { "label": "Latitude" },
+      "longitude": { "label": "Longitude" },
+      "locationType": { "label": "Locatie Type", "tooltip": "bijv., Restaurant, Park, Treinstation. Helpt anderen weten wat te verwachten.", "placeholder": "Selecteer type locatie" },
+      "wheelchairAccessible": { "label": "Is dit toilet rolstoeltoegankelijk?*" },
+      "accessibilityOptions": { "legend": "Toegankelijkheidsopties:" },
+      "thresholdFree": { "label": "Drempelvrije ingang?" },
+      "wheelchairSpace": { "label": "Voldoende manoeuvreerruimte?" },
+      "grabBars": { "label": "Handgrepen aanwezig?" },
+      "automaticDoor": { "label": "Automatische deur?" },
+      "inaccessibleReason": { "label": "Wat maakte het ontoegankelijk? (Optioneel)", "placeholder": "bijv., Smalle deuropening, treden bij ingang..." },
+      "rating": { "label": "Sterbeoordeling*", "description": "Van 1 (rampgebied) tot 5 (luxe suite)." },
+      "review": { "label": "Korte Review (Optioneel)", "placeholder": "bijv., Verrassend schoon! Maar de muziek was vreselijk.", "description": "Slechts een paar woorden over je ervaring." },
+      "photo": { "label": "Foto (Optioneel)", "descriptionHtml": "Sleep & drop of klik om te uploaden. <br/> Toon het goede, het slechte, en het beschimmelde.", "previewAlt": "Foto preview" }
+    },
+    "button": {
+      "useMyLocation": "Gebruik Mijn Locatie",
+      "locating": "Zoeken...",
+      "cancel": "Annuleren",
+      "submitting": "Toevoegen...",
+      "submit": "🚽 Flush & Save"
+    },
+    "mapFeedback": {
+      "initial": "Klik op de kaart om de exacte locatie vast te pinnen, of typ hierboven het adres in.",
+      "locating": "🛰️ Jouw locatie wordt gezocht...",
+      "locationUpdated": "📍 Locatie bijgewerkt naar: {{address}}. Verfijn door op de kaart te klikken.",
+      "locationSetNoAddress": "📍 Locatie vastgezet. Kon adres niet ophalen. Je kunt het handmatig typen.",
+      "locationError": "⚠️ Fout bij ophalen locatie: {{message}}. Pin handmatig a.u.b.",
+      "geolocationNotSupported": "⚠️ Geolocatie wordt niet ondersteund door je browser.",
+      "geocoderNotAvailable": "Kon kaart niet bijwerken vanaf adres. Geocoder niet beschikbaar.",
+      "geocoderNoResults": "⚠️ Kon adres niet vinden op kaart. Probeer een algemener adres of klik op de kaart.",
+      "geocoderFailed": "⚠️ Adres geocoding mislukt: {{status}}. Probeer opnieuw of klik op de kaart."
+    },
+    "accordion": {
+      "quickTags": { "trigger": "Kies optioneel een paar snelle tags om je ervaring te beschrijven" }
+    },
+    "validation": {
+      "nameMin": "Naam moet minimaal 3 tekens bevatten",
+      "nameMax": "Naam mag maximaal 100 tekens bevatten",
+      "addressMax": "Adres mag maximaal 200 tekens bevatten",
+      "inaccessibleReasonMax": "Reden mag maximaal 500 tekens bevatten",
+      "reviewMax": "Review mag maximaal 500 tekens bevatten",
+      "ratingMinMax": "Beoordeling moet tussen 1 en 5 zijn"
+    }
+  },
+  "toiletFun": {
+    "pageTitle": "Toiletweetjes waar je niet op zat te wachten 🚽",
+    "pageSubtitle": "Van gouden potten in paleizen tot hurkplekken in junglehostels: ontdek de fascinerende, bizarre en ronduit smerige wereld van toiletten.",
+    "factsSectionTitle": "Willekeurige Loo-Weetjes",
+    "typesSectionTitle": "De WC-Wijzer: Soorten Tronen",
+    "likes": "Likes",
+    "share": "Delen",
+    "learnMore": "Meer Weten",
+    "filter": {
+      "mostLiked": "Meest Geliked",
+      "random": "Willekeurig"
+    },
+    "toast": {
+      "liked": {
+        "title": "Spoelende Fan!",
+        "description": "Bedankt voor de liefde!"
+      }
+    },
+    "contribution": {
+      "title": "Heb jij een crappy weetje te delen?",
+      "description": "Denk je dat je een toilet-trivia kent die ons doet happen naar adem, giechelen of 'ieuw' zeggen? Wees niet verlegen, spoel het onze kant op!",
+      "buttonAdd": "Voeg je eigen toiletweetje toe"
+    },
+    "facts": {
+      "japanRules": {
+        "title": "Japan rules supreme",
+        "text": "De meeste Japanse wc’s hebben meer knoppen dan je tv. En sommigen begroeten je."
+      },
+      "goldenCrap": {
+        "title": "Gouden Drol",
+        "text": "In Hongkong bestaat een toilet van massief goud. Echt."
+      },
+      "ancientOversharing": {
+        "title": "Vroeg was beter?",
+        "text": "In het Romeinse Rijk zaten mensen zij aan zij. Geen privacy."
+      },
+      "skyPooper": {
+        "title": "De lift-wc",
+        "text": "In China zijn er wc’s in glazen liften met uitzicht."
+      },
+      "toiletTunes": {
+        "title": "Poepmuziek",
+        "text": "In Japan kun je ‘flushing sound’ simuleren zodat niemand iets hoort."
+      },
+      "globalFlush": {
+        "title": "Wereldwijde Spoeling",
+        "text": "Wereldwijd spoelen we ELKE DAG zo'n 141 miljard liter water door het toilet! 🤯 Dat is genoeg om jaarlijks ongeveer 56 miljoen Olympische zwembaden te vullen. Misschien water besparen, samen douchen? 😉"
+      },
+      "greatStink": {
+        "title": "De Grote Stank",
+        "text": "In de zomer van 1858 ervaarde Londen de \"Grote Stank\" uit de Theems vanwege onbehandeld rioolwater. Het was zo erg dat het parlement overwoog te verhuizen! Bewijs dat dingen soms gewoon moeten gaan! 🤢"
+      },
+      "toiletPaperOrigins": {
+        "title": "Oorsprong van Toiletpapier",
+        "text": "Voordat Joseph Gayetty in 1857 toiletpapier commercieel produceerde, werden mensen creatief. Bladeren, lappen, maïskolven... zelfs sneeuw in koudere klimaten! Laat je dat zachte rolletje waarderen, toch? 🍑❄️"
+      }
+    },
+    "types": {
+      "squat": {
+        "name": "Het Hurktoilet",
+        "description": "De klassieke 'gat-in-de-grond' ervaring. Goed voor de dijen!",
+        "rating": "⭐⭐⭐ Billen-op-koud-beton experience"
+      },
+      "holeInFloor": {
+        "name": "Het Basale Gat",
+        "description": "Simpel, effectief, en soms een beetje te dicht bij de natuur.",
+        "rating": "⭐ 'Hoop en bid' dat je niks laat vallen."
+      },
+      "portable": {
+        "name": "De Festival Dixi",
+        "description": "De festivalfavoriet! Of nachtmerrie. Vaak beide.",
+        "rating": "⭐ 'Overleefd'-badge waardig."
+      },
+      "smart": {
+        "name": "Het Slimme Toilet (Japanse stijl)",
+        "description": "Meer knoppen dan een cockpit. Verwarmde bril, bidet, droger... de toekomst is nu!",
+        "rating": "⭐⭐⭐⭐⭐ De Rolls Royce onder de potten."
+      },
+      "compost": {
+        "name": "Het Composttoilet",
+        "description": "Eco-vriendelijk en verrassend geurloos (meestal).",
+        "rating": "⭐⭐⭐ Voor de bewuste poeper."
+      },
+      "design": {
+        "name": "Het 'Artistieke' Design Toilet",
+        "description": "Is het kunst? Is het een toilet? Waarschijnlijk beide. Vaak oncomfortabel.",
+        "rating": "⭐⭐ 'Kijk niet aanraken' gevoel."
+      }
+    }
+  },
+  "constants": {
+    "locationTypes": {
+      "restaurant": "Restaurant",
+      "hotel": "Hotel",
+      "cafeBar": "Café/Bar",
+      "shoppingMall": "Winkelcentrum",
+      "trainStation": "Treinstation",
+      "park": "Park",
+      "school": "School",
+      "publicSpace": "Openbare Ruimte",
+      "gasStation": "Benzinestation",
+      "home": "Thuis",
+      "studentHouse": "Studentenhuis",
+      "other": "Anders"
+    },
+    "accessibilityOptions": {
+      "yes": "Ja",
+      "no": "Nee",
+      "notSure": "Niet Zeker"
+    },
+    "toiletFeatures": {
+      "babyChanging": { "label": "Babyverschoonplek", "description": "Voor de kleintjes die een grote bende maken." },
+      "hasSoap": { "label": "Zeep Aanwezig", "description": "Geen zeep = geen hoop. Laat het ons weten!" },
+      "hasToiletPaper": { "label": "Toiletpapier", "description": "De MVP van elk goed toilet. Was het er?" }
+    },
+    "toiletTypes": {
+      "sitting": { "label": "Zittoilet", "description": "De klassieke troon." },
+      "squat": { "label": "Hurktoilet", "description": "Een ander soort verlichting." },
+      "urinal": { "label": "Urinoir", "description": "Voor een snelle pitstop." },
+      "attended": { "label": "Bemand Toilet", "description": "Service met een glimlach (hopelijk)." },
+      "womenOnly": { "label": "Alleen Vrouwen", "description": "Exclusief voor vrouwen." },
+      "menOnly": { "label": "Alleen Mannen", "description": "Exclusief voor mannen." },
+      "genderNeutral": { "label": "Genderneutraal", "description": "Voor iedereen." }
+    },
+    "quickTagCategories": {
+      "positive": { "title": "Positieve Vibes ✨" },
+      "neutral": { "title": "Alleen de Feiten 🤷" },
+      "negative": { "title": "Oh Oh... 💩" }
+    },
+    "quickTags": {
+      "best_visit_ever": { "label": "Beste Bezoek Ooit" },
+      "spotless_clean": { "label": "Smetteloos Schoon" },
+      "quick_easy": { "label": "Snel & Makkelijk" },
+      "well_lit_safe": { "label": "Goed Verlicht & Veilig" },
+      "nothing_special": { "label": "Niets Speciaals" },
+      "just_ok": { "label": "Gewoon OK" },
+      "total_disaster": { "label": "Totale Ramp" },
+      "smelled_awful": { "label": "Stonk Vreselijk" },
+      "no_toilet_paper": { "label": "Geen Toiletpapier" },
+      "long_wait": { "label": "Lange Wachtrij" },
+      "emergency_exit_only": { "label": "Alleen Nooduitgang?" }
+    }
+  }
+}
+    

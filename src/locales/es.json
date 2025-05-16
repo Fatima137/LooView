@@ -1,0 +1,586 @@
+
+{
+  "header": {
+    "shareExperience": "Compartir Experiencia",
+    "selectLanguage": "Seleccionar Idioma",
+    "loginButton": "Iniciar Sesión",
+    "logoutButton": "Cerrar Sesión",
+    "profileLink": "Mi Perfil",
+    "adminConsoleLink": "Consola Admin",
+    "loginRequiredTitle": "Inicio de Sesión Requerido",
+    "loginRequiredDescriptionShare": "Por favor, inicia sesión para compartir tu experiencia.",
+    "logoutSuccessTitle": "Sesión Cerrada",
+    "logoutSuccessDescription": "Has cerrado sesión correctamente.",
+    "logoutErrorTitle": "Error al Cerrar Sesión"
+  },
+  "hero": {
+    "title": "💩 Califica los Mejores y Peores Retretes del Mundo",
+    "subtitle": "No más 💀 ruleta de caca. Fotografía los cubículos, cuenta el chisme, salva el trasero de alguien.",
+    "welcome": "🚽 Bienvenido a LooView — Califica. Captura. Descarga.",
+    "description": "¿Cansado de experiencias misteriosas en el baño? Ayuda al mundo a encontrar tronos limpios y exponer los puestos aterradores. Con LooView, puedes agregar y calificar fácilmente baños en todo el mundo. Ya sea el tocador de un hotel de 5 estrellas o un cubículo de gasolinera de película de terror, tu reseña importa.",
+    "browseButton": "Busca un Baño Decente",
+    "shareButton": "Expón un Cubículo Asqueroso",
+    "saveButtsButton": "Comienza a Salvar Traseros Hoy",
+    "previousSlide": "Diapositiva Anterior",
+    "nextSlide": "Siguiente Diapositiva",
+    "goToSlide": "Ir a la diapositiva {{slideNum}}",
+    "slideAlt": "Imagen de fondo del héroe para la diapositiva {{slideNum}}: {{context}}",
+    "slide2": {
+      "title": "¡Únete a la LooVolución!",
+      "subtitle": "Tus ideas marcan una gran diferencia. Comparte tus hallazgos y ayuda a otros.",
+      "description": "LooView es impulsado por personas como tú. Cada baño agregado, cada reseña escrita, ayuda a construir un mapa global de baños confiables. ¡Conviértete en una LooLegend!",
+      "cta1": "Comparte Tu Primer Baño",
+      "cta2": "Ver Principales Contribuidores"
+    },
+    "slide3": {
+      "title": "Encuentra Tu Trono, Donde Sea.",
+      "subtitle": "Desde bulliciosos centros urbanos hasta remotas rutas de senderismo, LooView te guía.",
+      "description": "Usa nuestros filtros avanzados para encontrar exactamente lo que necesitas: baños accesibles, cambiadores de bebés o simplemente el lugar más limpio cercano. La aventura te espera, y un baño decente también.",
+      "titleNew": "Tu Trono Espera. O un Peligro Biológico. Averígualo Primero.",
+      "subtitleNew": "¿Perdido en la jungla urbana o en lo profundo del bosque? LooView: tu brújula hacia los retretes.",
+      "descriptionNew": "¿Es una descarga de cinco estrellas o un mal olor de una estrella? Nuestros filtros eliminan la mierda. Literalmente. ¿Accesible? ¿Apto para bebés? ¿Simplemente sobrevivible? Te tenemos cubierto. La aventura llama, no dejes que un retrete dudoso te detenga.",
+      "cta1": "Explora el Mapa Global",
+      "cta2": "Aprende Sobre las Características"
+    }
+  },
+  "landing": {
+    "recentlySpotted": {
+      "title": "LooViews Recientemente Vistos",
+      "noToilets": "Aún no se han visto LooViews. ¡Sé el primero en agregar uno!"
+    },
+    "stats": {
+      "title": "LooView en Números",
+      "toiletsRated": "Baños Calificados",
+      "countriesCovered": "Países Cubiertos",
+      "reviewsShared": "Reseñas Compartidas",
+      "photosUploaded": "Fotos Subidas"
+    },
+    "photoStrip": {
+      "titlePart1": "De Tokio a Toronto: Lo Bueno, Lo Malo y",
+      "titlePart2": "La Porcelana.",
+      "alt": "Foto subida por el usuario para {{name}}",
+      "placeholder": "¡Más fotos pronto!"
+    },
+    "mapPreview": {
+      "title": "Explora LooViews en el Mapa",
+      "button": "Ver Mapa Global",
+      "fullMapAlert": "Navegando al mapa completo (característica a implementar)."
+    },
+    "recentReviews": {
+      "title": "Fresco del Cubículo"
+    },
+    "topToilets": {
+      "title": "Mejores Baños Esta Semana"
+    },
+    "dirtiestToilets": {
+      "title": "Peores Vertederos Esta Semana",
+      "viewDetailsButton": "Ver Detalles (Si te Atreves)"
+    },
+    "leaderboard": {
+      "title": "Mejores LooTesters",
+      "cardTitle": "Principales Contribuyentes",
+      "noContributors": "Aún no hay principales contribuyentes de {{countryName}}. ¡Sé el primero!",
+      "contributionsAriaLabel": "ícono de contribuciones"
+    },
+    "whyContribute": {
+      "title": "🚽 Suelta la Sopa: ¡Por Qué Tus Reseñas de Baños Molan!",
+      "point1": {
+        "title": "Sé un Héroe de la Higiene ✨",
+        "description": "¡Tus calificaciones eliminan la suciedad y elevan el listón de los estándares de los baños públicos! ¡Cada estrella marca una gran diferencia!"
+      },
+      "point2": {
+        "title": "Guía a Trotamundos y Locales 🗺️",
+        "description": "Ayuda a tus congéneres —desde exploradores del mundo hasta viajeros diarios— a encontrar un trono digno cuando la naturaleza hace su llamada urgente."
+      },
+      "point3": {
+        "title": "Crónica de Curiosidades de Sanitarios 📸",
+        "description": "Desde retretes palaciegos hasta plomería peculiar, documenta las experiencias de baño únicas, bizarras y 'tienes-que-ver-esto'."
+      }
+    },
+    "footer": {
+      "about": {
+        "title": "💩 ¿Qué es LooView?",
+        "description": "Califica. Captura. Descarga. De Tokio a Toronto — ayudando al mundo a encontrar (y sobrevivir) baños públicos."
+      },
+      "explore": {
+        "title": "🗺️ Explora",
+        "mission": "Nuestra Misión",
+        "pressKit": "Kit de Prensa",
+        "faqSupport": "FAQ / Soporte",
+        "funFacts": "Datos Curiosos de Baños"
+      },
+      "community": {
+        "title": "👨‍👩‍👧‍👦 Comunidad",
+        "leaderboard": "Tabla de Clasificación",
+        "suggestFeature": "Sugerir una Característica",
+        "guidelines": "Directrices de la Comunidad"
+      },
+      "language": {
+        "title": "🌍 Idioma",
+        "placeholder": "Seleccionar Idioma"
+      },
+      "connect": {
+        "title": "Conecta con Nosotros",
+        "twitter": "Síguenos en Twitter",
+        "github": "Síguenos en GitHub",
+        "linkedin": "Síguenos en LinkedIn"
+      },
+      "rightsReserved": "Todos los derechos reservados.",
+      "tagline": "Construido con 💙 y un toque de 💩 en Ámsterdam — porque todos han juzgado un lugar por su baño."
+    },
+    "share": {
+      "textBase": "Echa un vistazo a este baño en LooView: {{name}}. Calificación: {{rating}}/5.",
+      "textAddress": "Ubicado en: {{address}}.",
+      "textReview": "Reseña: \"{{review}}\"",
+      "ariaLabel": "Compartir baño",
+      "ariaLabelReview": "Compartir reseña"
+    },
+    "toiletPhotoAlt": "Foto de {{name}}",
+    "locationFallback": "Lat: {{lat}}, Lng: {{lng}}",
+    "readMore": "Leer más",
+    "locationDetailsUnavailable": "Detalles de ubicación no disponibles",
+    "reviewCount": "{{count}} Reseñas",
+    "seeDetails": "Ver Detalles",
+    "viewDetails": "Ver Detalles"
+  },
+  "toast": {
+    "shareSuccessTitle": "¡Compartido exitosamente!",
+    "shareSuccessDescriptionLinkCopied": "Enlace para compartir copiado al portapapeles.",
+    "shareErrorCopyFailedTitle": "Error al copiar enlace",
+    "shareErrorCopyFailedDescription": "No se pudo copiar el enlace al portapapeles.",
+    "shareErrorBlockedTitle": "Uso Compartido Bloqueado",
+    "shareErrorBlockedDescription": "No se pudo compartir. Comprueba los permisos del navegador/SO. Enlace copiado al portapapeles como alternativa.",
+    "shareErrorGenericTitle": "No se pudo compartir",
+    "shareErrorGenericDescription": "Ocurrió un error inesperado. Por favor, inténtalo de nuevo más tarde."
+  },
+  "toiletDetails": {
+    "ratingTitle": "Calificación",
+    "reviewTitle": "Reseña",
+    "quickTagsTitle": "Etiquetas Rápidas",
+    "featuresTitle": "Características",
+    "locationTitle": "Ubicación",
+    "locationCoordinates": "Lat: {{lat}}, Lng: {{lng}}",
+    "closeButton": "Cerrar",
+    "shareButton": "Compartir"
+  },
+  "about": {
+    "missionTitle": "Nuestra Misión en LooView",
+    "missionSubtitle": "Aportar transparencia, humor y comunidad al mundo de los baños públicos. Porque encontrar un buen baño no debería ser una apuesta.",
+    "dailyDilemmaTitle": "🤔 El Dilema Diario: ¿Por Qué LooView?",
+    "dailyDilemmaP1": "¿Alguna vez te has visto en apuros, buscando desesperadamente un baño público decente? Esa sensación universal de incertidumbre – la \"apuesta del baño\" – es por lo que nació LooView. Creemos que el acceso a información sobre baños limpios, seguros y fiables es una necesidad básica, especialmente cuando estás en movimiento, viajando o tienes requisitos de accesibilidad específicos.",
+    "dailyDilemmaP2": "Los mapas tradicionales no cuentan toda la historia. ¿Está limpio? ¿Hay papel higiénico? ¿Es accesible? LooView llena este vacío con reseñas y fotos reales generadas por los usuarios.",
+    "coreBeliefsTitle": "✨ Nuestras Creencias Fundamentales",
+    "belief": {
+      "transparency": {
+        "title": "La Transparencia Brilla",
+        "text": "Reseñas y fotos honestas y sin filtrar proporcionan la imagen real. ¡No más sorpresas desagradables!"
+      },
+      "community": {
+        "title": "Impulsado por la Comunidad",
+        "text": "Cada contribución, grande o pequeña, ayuda a otros LooViewers a navegar por el mundo con más confianza."
+      },
+      "accessibility": {
+        "title": "Accesibilidad para Todos",
+        "text": "Destacar las instalaciones accesibles es crucial. Nuestro objetivo es facilitar la búsqueda de baños adecuados para todos."
+      },
+      "hygiene": {
+        "title": "Promoviendo la Higiene",
+        "text": "Al calificar y reseñar, nuestra comunidad aboga por mejores estándares de baños públicos en todo el mundo."
+      },
+      "global": {
+        "title": "Alcance Global, Impacto Local",
+        "text": "Desde el café de tu vecindario hasta un destino de viaje lejano, LooView está ahí."
+      },
+      "humor": {
+        "title": "Un Toque de Humor",
+        "text": "Seamos honestos, ¡hablar de baños puede ser divertido! Abrazamos el lado más ligero de esta búsqueda esencial."
+      }
+    },
+    "howItWorksTitle": "🛠️ Cómo Funciona LooView: Califica. Captura. Descarga.",
+    "howItWorksP1": "LooView es una plataforma impulsada por la comunidad. Usuarios como tú son el corazón de nuestra misión.",
+    "howItWorksLi1": "<strong>Descubre:</strong> Explora baños cercanos en nuestro mapa interactivo, filtra por características y lee reseñas.",
+    "howItWorksLi2": "<strong>Contribuye:</strong> ¿Encontraste un baño nuevo? ¡Añádelo! ¿Tuviste una experiencia? Comparte tu calificación, reseña y fotos.",
+    "howItWorksLi3": "<strong>Empodera:</strong> Tus contribuciones ayudan a otros a tomar decisiones informadas y animan a los establecimientos a mejorar sus instalaciones.",
+    "howItWorksP2": "Es simple: cuanto más compartimos, mejor se vuelve la experiencia LooView para todos.",
+    "joinMovementTitle": "🙌 ¡Únete a la LooVolución!",
+    "joinMovementP1": "¿Listo para marcar la diferencia, una descarga a la vez? Tus ideas pueden ayudar a millones. Comienza agregando tu primera reseña o descubriendo baños geniales (y no tan geniales) cerca de ti.",
+    "joinMovementButtonShare": "Comparte Tu Experiencia en el Baño",
+    "joinMovementButtonExplore": "Explorar Baños Ahora"
+  },
+  "pressKit": {
+    "title": "Kit de Prensa de LooView",
+    "subtitle": "Todo lo que necesitas saber sobre LooView, la aplicación revolucionaria para encontrar y calificar baños públicos en todo el mundo.",
+    "logoAlt": "Logotipo Oficial de LooView",
+    "about": {
+      "title": "Acerca de LooView",
+      "p1": "LooView es una plataforma impulsada por la comunidad dedicada a ayudar a las personas a encontrar baños públicos limpios, seguros y confiables. Creemos que el acceso a buenas instalaciones sanitarias es una necesidad básica, y nuestra misión es hacer que esta información sea fácilmente accesible para todos, en todas partes.",
+      "p2": "Con una mezcla de reseñas generadas por usuarios, fotos y etiquetado detallado de características, LooView tiene como objetivo eliminar las conjeturas al encontrar un baño adecuado, ya sea que estés en tu ciudad natal o viajando por el mundo. También le inyectamos un poco de humor al tema a menudo tabú de los baños, ¿por qué no?"
+    },
+    "features": {
+      "title": "Características Clave",
+      "feature1": {
+        "title": "Califica, Captura, Descarga",
+        "description": "Los usuarios pueden calificar fácilmente los baños, subir fotos y compartir reseñas detalladas sobre sus experiencias."
+      },
+      "feature2": {
+        "title": "Mapa Interactivo",
+        "description": "Descubre baños cercanos con nuestro mapa intuitivo, completo con filtros para características como accesibilidad y cambiadores de bebés."
+      },
+      "feature3": {
+        "title": "Impulsado por la Comunidad",
+        "description": "Nuestra plataforma prospera con las contribuciones de los usuarios, creando un recurso constantemente actualizado y confiable para todos."
+      }
+    },
+    "assets": {
+      "title": "Activos de Marca",
+      "logos": {
+        "title": "Logotipos",
+        "description": "Descarga nuestros logotipos oficiales en varios formatos.",
+        "logo1Alt": "Logotipo Principal de LooView",
+        "logo1Label": "Logotipo Principal (para fondos claros)",
+        "logo2Alt": "Logotipo Secundario de LooView",
+        "logo2Label": "Logotipo Invertido (para fondos oscuros)",
+        "downloadButton": "Descargar Paquete de Logotipos"
+      },
+      "colors": {
+        "title": "Paleta de Colores",
+        "description": "Nuestros colores de marca oficiales."
+      }
+    },
+    "team": {
+      "title": "Nuestra Historia y Equipo",
+      "subtitle": "La Fuerza de Descarga Detrás de LooView",
+      "p1": "LooView nació de una necesidad simple y universal: encontrar un baño decente cuando estás fuera de casa. Nuestro equipo es un apasionado de la creación de una plataforma útil, atractiva y ligeramente peculiar que marque una diferencia real en la vida diaria y los viajes de las personas. Somos un grupo pequeño y dedicado de desarrolladores, diseñadores y entusiastas de los baños comprometidos con mejorar la transparencia de los baños públicos en todo el mundo.",
+      "learnMoreButton": "Aprende Más Sobre Nuestra Misión"
+    },
+    "contact": {
+      "title": "Ponte en Contacto",
+      "description": "Para consultas de medios, oportunidades de asociación o simplemente para saludar, por favor contáctanos.",
+      "email": "prensa@looview.com",
+      "emailButton": "Envíanos un Correo Electrónico",
+      "faqButton": "Visita FAQ / Soporte"
+    },
+    "news": {
+      "title": "En Las Noticias",
+      "placeholder": "¡Estamos causando sensación! Vuelve pronto para ver nuestras últimas menciones en los medios."
+    }
+  },
+  "support": {
+    "hero": {
+      "title": "¿Necesitas Ayuda? ¡Estamos Aquí Para Ayudarte!",
+      "subtitle": "Encuentra respuestas a preguntas comunes, aprende cómo contribuir o ponte en contacto con nuestro equipo de soporte."
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "description": "¿Tienes una pregunta? ¡Es probable que alguien más también la haya tenido! Consulta nuestras FAQs.",
+      "item1": {
+        "question": "¿Cómo agrego un nuevo baño a LooView?",
+        "answer": "¡Fácil! Simplemente haz clic en el botón 'Compartir Tu Experiencia' o 'Agregar Baño', completa los detalles como nombre, ubicación (¡puedes usar el mapa!), características y tu calificación. ¡Una foto también ayuda! Cuanta más información, mejor para todos."
+      },
+      "item2": {
+        "question": "¿Puedo editar un baño que he agregado o una reseña que he escrito?",
+        "answer": "Actualmente, la edición directa de envíos no está disponible. Si has cometido un error significativo, por favor contacta a soporte con los detalles y te ayudaremos. ¡Estamos trabajando para facilitar las ediciones en el futuro!"
+      },
+      "item3": {
+        "question": "¿Qué tipo de fotos debo subir?",
+        "answer": "¡Muéstranos la realidad! Limpio o desordenado, queremos verlo. Buenas fotos incluyen el inodoro en sí, el área del lavabo, la limpieza general y cualquier característica especial (como un cambiador de bebés o ayudas de accesibilidad). Por favor, evita fotos con personas por razones de privacidad."
+      },
+      "item4": {
+        "question": "¿Cómo se calcula la calificación promedio?",
+        "answer": "La calificación promedio es una media simple de todas las calificaciones de los usuarios para ese baño específico. Más reseñas conducen a un promedio más preciso, ¡así que sigue enviándolas!"
+      },
+      "item5": {
+        "question": "Encontré una reseña o foto inapropiada. ¿Qué debo hacer?",
+        "answer": "¡Por favor, repórtalo inmediatamente! Usa la función 'Reportar un Problema' (detalles abajo) o contáctanos directamente. Nos tomamos muy en serio la seguridad de la comunidad y la idoneidad del contenido."
+      }
+    },
+    "contact": {
+      "title": "¿Aún Necesitas Ayuda? ¡Contáctanos!",
+      "email": {
+        "title": "Soporte por Correo Electrónico",
+        "description": "Para consultas generales, solicitudes de soporte o comentarios.",
+        "address": "soporte@looview.com",
+        "responseInfo": "Nuestro objetivo es responder dentro de 24-48 horas hábiles.",
+        "button": "Envíanos un Correo Electrónico"
+      },
+      "community": {
+        "title": "Foro de la Comunidad",
+        "description": "Haz preguntas, comparte consejos y conéctate con otros LooViewers.",
+        "forumInfo": "Nuestro foro comunitario es un excelente lugar para obtener ayuda de otros usuarios o discutir las características de LooView.",
+        "button": "Visita el Foro de la Comunidad"
+      }
+    },
+    "reportProblem": {
+      "title": "Reportar un Problema",
+      "description": "¿Detectaste un problema con un listado, una reseña o la aplicación misma?",
+      "instructions": "Por favor, proporciona tantos detalles como sea posible, incluyendo el nombre/ubicación del baño si aplica, y una descripción del problema.",
+      "button": "Reportar un Problema",
+      "microcopy": "Ayúdanos a mantener el trono limpio."
+    },
+    "featureRequest": {
+        "title": "Sugerir una Característica",
+        "description": "¿Tienes una idea brillante para hacer LooView aún mejor?",
+        "instructions": "¡Nos encanta escuchar tus sugerencias! Dinos qué características te gustaría ver.",
+        "button": "Sugerir una Característica",
+        "microcopy": "¡Tu descarga de genialidad podría inspirar nuestra próxima actualización!"
+    },
+    "resources": {
+      "title": "Recursos Útiles",
+      "description": "Explora más sobre LooView y nuestra comunidad.",
+      "aboutLink": "Acerca de LooView",
+      "guidelinesLink": "Directrices de la Comunidad",
+      "pressKitLink": "Kit de Prensa"
+    }
+  },
+  "leaderboard": {
+    "pageTitle": "Campeones de LooView",
+    "pageSubtitle": "¡Mira quién está eliminando a la competencia y haciendo legendario a LooView!",
+    "global": {
+      "title": "Clasificaciones Globales",
+      "description": "Los reseñadores de baños más dedicados del mundo.",
+      "rank": "Rango",
+      "user": "Usuario",
+      "contributions": "Contribuciones",
+      "country": "País",
+      "badge": "Insignia"
+    },
+    "byCountry": {
+      "title": "Héroes Nacionales",
+      "description": "Principales contribuyentes de cada nación.",
+      "selectCountry": "Seleccionar un País"
+    },
+    "hallOfFame": {
+      "title": "Salón de la Fama",
+      "description": "Leyendas que han tenido un impacto duradero en LooView."
+    },
+    "noContributors": "Aún no hay principales contribuyentes en esta categoría. ¡Sé el primero!",
+    "medals": {
+      "gold": "Medalla de Oro",
+      "silver": "Medalla de Plata",
+      "bronze": "Medalla de Bronce"
+    }
+  },
+  "profile": {
+    "pageTitle": "Mi Perfil de LooView",
+    "loading": "Cargando perfil...",
+    "editProfile": "Editar Perfil",
+    "displayName": "Nombre de Usuario",
+    "email": "Correo Electrónico",
+    "joinedLabel": "Se unió:",
+    "contributionsLabel": "Contribuciones",
+    "recentActivityTitle": "Actividad Reciente",
+    "recentActivityPlaceholder": "Tus reseñas recientes y baños agregados aparecerán aquí.",
+    "viewAllActivity": "Ver Toda la Actividad",
+    "settingsTitle": "Configuración",
+    "settingsPlaceholder": "Administra la configuración y preferencias de tu cuenta aquí.",
+    "manageSettings": "Administrar Configuración",
+    "bannerAlt": "Imagen de banner del perfil",
+    "bioPlaceholder": "¡Explorador(a) de baños y crítico(a) extraordinario(a)!",
+    "roleAdmin": "Administrador(a)",
+    "roleUser": "LooViewer"
+  },
+  "login": {
+    "title": "¡Bienvenido de Nuevo a LooView!",
+    "description": "Inicia sesión para continuar tu viaje de descubrir y calificar baños.",
+    "emailLabel": "Dirección de Correo Electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "••••••••",
+    "submitButton": "Iniciar Sesión",
+    "loadingButton": "Iniciando Sesión...",
+    "forgotPasswordLink": "¿Olvidaste tu contraseña?",
+    "noAccountPrompt": "¿No tienes una cuenta?",
+    "signUpLink": "Regístrate",
+    "successTitle": "¡Inicio de Sesión Exitoso!",
+    "successDescription": "¡Bienvenido de nuevo! Has iniciado sesión correctamente.",
+    "errorTitle": "Error al Iniciar Sesión",
+    "errorInvalidCredentials": "Correo electrónico o contraseña no válidos. Por favor, inténtalo de nuevo.",
+    "errorDefault": "Ocurrió un error inesperado. Por favor, inténtalo de nuevo más tarde."
+  },
+  "signup": {
+    "title": "¡Únete al Equipo LooView!",
+    "description": "Crea una cuenta para comenzar a calificar, fotografiar y descargar tu camino a través de los WC del mundo.",
+    "displayNameLabel": "Nombre de Usuario",
+    "displayNamePlaceholder": "LeyendaDelLoo27",
+    "emailLabel": "Dirección de Correo Electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "•••••••• (mín. 6 caracteres)",
+    "confirmPasswordLabel": "Confirmar Contraseña",
+    "confirmPasswordPlaceholder": "••••••••",
+    "submitButton": "Crear Cuenta",
+    "loadingButton": "Creando Cuenta...",
+    "errorDisplayNameMin": "El nombre de usuario debe tener al menos 3 caracteres.",
+    "errorDisplayNameMax": "El nombre de usuario debe tener como máximo 50 caracteres.",
+    "errorEmailInvalid": "Por favor, introduce una dirección de correo electrónico válida.",
+    "errorPasswordMin": "La contraseña debe tener al menos 6 caracteres.",
+    "errorPasswordMismatch": "Las contraseñas no coinciden. Por favor, vuelve a introducirlas.",
+    "errorEmailInUse": "Este correo electrónico ya está en uso. Intenta iniciar sesión o usa un correo diferente.",
+    "errorWeakPassword": "La contraseña es demasiado débil. Por favor, elige una más fuerte.",
+    "errorDefault": "Ocurrió un error inesperado. Por favor, inténtalo de nuevo más tarde.",
+    "successTitle": "¡Cuenta Creada!",
+    "successDescription": "¡Bienvenido a LooView! Ya estás listo para explorar.",
+    "loginPrompt": "¿Ya tienes una cuenta?",
+    "loginLink": "Inicia Sesión Aquí"
+  },
+  "forgotPassword": {
+    "title": "¿Olvidaste Tu Contraseña?",
+    "description": "¡No te preocupes! Introduce tu correo electrónico y te enviaremos un enlace para restablecerla.",
+    "emailLabel": "Dirección de Correo Electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "submitButton": "Enviar Enlace de Restablecimiento",
+    "loadingButton": "Enviando...",
+    "loginLink": "Volver al Inicio de Sesión",
+    "noAccountPrompt": "¿No tienes una cuenta?",
+    "signUpLink": "Regístrate",
+    "successTitle": "¡Enlace de Restablecimiento Enviado!",
+    "successDescription": "Si existe una cuenta para {{email}}, recibirás un correo electrónico con instrucciones para restablecer tu contraseña.",
+    "errorTitle": "Error al Restablecer",
+    "errorUserNotFound": "No se encontró ninguna cuenta con esta dirección de correo electrónico.",
+    "errorEmailInvalid": "Por favor, introduce una dirección de correo electrónico válida.",
+    "errorDefault": "Ocurrió un error inesperado. Por favor, inténtalo de nuevo más tarde."
+  },
+  "toiletFun": {
+    "pageTitle": "Datos Curiosos sobre Baños que No Sabías que Necesitabas 🚽",
+    "pageSubtitle": "Desde tronos dorados en palacios hasta letrinas en albergues de la selva — sumérgete en el fascinante, bizarro y francamente sucio mundo de los baños.",
+    "factsSectionTitle": "Datos Aleatorios de Baños",
+    "typesSectionTitle": "El Léxico de los Baños: Tipos de Tronos",
+    "likes": "Me gusta",
+    "share": "Compartir",
+    "learnMore": "Saber Más",
+    "filter": {
+      "mostLiked": "Más Gustados",
+      "random": "Aleatorio"
+    },
+    "toast": {
+      "liked": {
+        "title": "¡Fan de la Descarga!",
+        "description": "¡Gracias por el cariño!"
+      }
+    },
+    "contribution": {
+      "title": "¿Tienes un Dato Asqueroso para Compartir?",
+      "description": "¿Crees que conoces una curiosidad sobre baños que nos hará jadear, reír o decir '¡qué asco!'? ¡No seas tímido, descárgalo con nosotros!",
+      "buttonAdd": "Agrega Tu Propio Dato sobre Baños"
+    },
+    "facts": {
+      "japanRules": {
+        "title": "Japón Manda",
+        "text": "La mayoría de los baños japoneses tienen más botones que tu control remoto. Algunos incluso saludan."
+      },
+      "goldenCrap": {
+        "title": "Mierda Dorada",
+        "text": "Hay un inodoro de oro macizo en Hong Kong. No es broma."
+      },
+      "ancientOversharing": {
+        "title": "Exceso de Compartir Antiguo",
+        "text": "En la Antigua Roma, ir al baño significaba sentarse codo con codo. Acogedor."
+      },
+      "skyPooper": {
+        "title": "Cagador del Cielo",
+        "text": "En China, algunos baños están en ascensores de cristal con vistas. Aterrador."
+      },
+      "toiletTunes": {
+        "title": "Melodías de Baño",
+        "text": "En Japón, los sonidos falsos de descarga te ayudan a enmascarar tus... sinfonías."
+      },
+      "globalFlush": {
+        "title": "Descarga Global",
+        "text": "¡Alrededor de 141 mil millones de litros de agua se descargan en inodoros a nivel mundial CADA DÍA! 🤯 Eso es suficiente para llenar aproximadamente 56 millones de piscinas olímpicas al año. Tal vez ahorra agua, ¿toma una ducha con un amigo? 😉"
+      },
+      "greatStink": {
+        "title": "El Gran Hedor",
+        "description": "En el verano de 1858, Londres experimentó el \"Gran Hedor\" del río Támesis debido a las aguas residuales sin tratar. ¡Era tan malo que el Parlamento consideró mudarse! Prueba de que a veces, ¡las cosas simplemente tienen que irse! 🤢"
+      },
+      "toiletPaperOrigins": {
+        "title": "Orígenes del Papel Higiénico",
+        "text": "Antes de que Joseph Gayetty produjera papel higiénico comercialmente en 1857, la gente se volvía creativa. Hojas, trapos, mazorcas de maíz... ¡incluso nieve en climas más fríos! Te hace apreciar ese rollo suave, ¿verdad? 🍑❄️"
+      }
+    },
+    "types": {
+      "squat": {
+        "name": "El Baño Turco",
+        "description": "La clásica experiencia de 'agujero en el suelo'. ¡Excelente para tus muslos!",
+        "rating": "⭐⭐⭐ Experiencia de mejillas sobre concreto frío"
+      },
+      "holeInFloor": {
+        "name": "El Agujero Básico",
+        "description": "Simple, efectivo y, a veces, un poco demasiado cerca de la naturaleza.",
+        "rating": "⭐ 'Espera y reza' para no dejar caer nada."
+      },
+      "portable": {
+        "name": "El Baño Portátil de Festival",
+        "description": "¡El favorito del festival! O pesadilla. A menudo ambos.",
+        "rating": "⭐ Merecedor de una insignia de 'Lo Sobreviví'."
+      },
+      "smart": {
+        "name": "El Baño Inteligente (estilo japonés)",
+        "description": "Más botones que una cabina de avión. Asiento con calefacción, bidé, secador... ¡el futuro es ahora!",
+        "rating": "⭐⭐⭐⭐⭐ El Rolls Royce de los retretes."
+      },
+      "compost": {
+        "name": "El Baño de Compostaje",
+        "description": "Ecológico y sorprendentemente inodoro (en su mayoría).",
+        "rating": "⭐⭐⭐ Para el cagador consciente."
+      },
+      "design": {
+        "name": "El Baño de Diseño 'Artístico'",
+        "description": "¿Es arte? ¿Es un baño? Probablemente ambos. A menudo incómodo.",
+        "rating": "⭐⭐ Ambiente de 'mirar pero no tocar'."
+      }
+    }
+  },
+  "constants": {
+    "locationTypes": {
+      "restaurant": "Restaurante",
+      "hotel": "Hotel",
+      "cafeBar": "Cafetería/Bar",
+      "shoppingMall": "Centro Comercial",
+      "trainStation": "Estación de Tren",
+      "park": "Parque",
+      "school": "Escuela",
+      "publicSpace": "Espacio Público",
+      "gasStation": "Gasolinera",
+      "home": "Casa",
+      "studentHouse": "Casa de Estudiantes",
+      "other": "Otro"
+    },
+    "accessibilityOptions": {
+      "yes": "Sí",
+      "no": "No",
+      "notSure": "No Estoy Seguro"
+    },
+    "toiletFeatures": {
+      "babyChanging": { "label": "Cambiador de Bebés", "description": "Para los pequeños que hacen grandes desastres." },
+      "hasSoap": { "label": "Jabón Presente", "description": "Sin jabón = sin esperanza. ¡Avísanos!" },
+      "hasToiletPaper": { "label": "Papel Higiénico", "description": "El MVP de cualquier buen baño. ¿Estaba allí?" }
+    },
+    "toiletTypes": {
+      "sitting": { "label": "Inodoro Sentado", "description": "El trono clásico." },
+      "squat": { "label": "Inodoro Turco", "description": "Un tipo diferente de alivio." },
+      "urinal": { "label": "Urinario", "description": "Para una parada rápida." },
+      "attended": { "label": "Baño Atendido", "description": "Servicio con una sonrisa (con suerte)." },
+      "womenOnly": { "label": "Solo Mujeres", "description": "Exclusivamente para mujeres." },
+      "menOnly": { "label": "Solo Hombres", "description": "Exclusivamente para hombres." },
+      "genderNeutral": { "label": "Género Neutro", "description": "Para todos." }
+    },
+    "quickTagCategories": {
+      "positive": { "title": "Vibras Positivas ✨" },
+      "neutral": { "title": "Solo los Hechos 🤷" },
+      "negative": { "title": "Uh Oh... 💩" }
+    },
+    "quickTags": {
+      "best_visit_ever": { "label": "Mejor Visita de la Historia" },
+      "spotless_clean": { "label": "Impecablemente Limpio" },
+      "quick_easy": { "label": "Rápido y Fácil" },
+      "well_lit_safe": { "label": "Bien Iluminado y Seguro" },
+      "nothing_special": { "label": "Nada Especial" },
+      "just_ok": { "label": "Solo OK" },
+      "total_disaster": { "label": "Desastre Total" },
+      "smelled_awful": { "label": "Olía Horrible" },
+      "no_toilet_paper": { "label": "Sin Papel Higiénico" },
+      "long_wait": { "label": "Larga Espera" },
+      "emergency_exit_only": { "label": "¿Solo Salida de Emergencia?" }
+    }
+  }
+}

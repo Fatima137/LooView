@@ -1,0 +1,586 @@
+
+{
+  "header": {
+    "shareExperience": "Erfahrung Teilen",
+    "selectLanguage": "Sprache Wählen",
+    "loginButton": "Anmelden",
+    "logoutButton": "Abmelden",
+    "profileLink": "Mein Profil",
+    "adminConsoleLink": "Admin-Konsole",
+    "loginRequiredTitle": "Anmeldung Erforderlich",
+    "loginRequiredDescriptionShare": "Bitte melde dich an, um deine Erfahrung zu teilen.",
+    "logoutSuccessTitle": "Abgemeldet",
+    "logoutSuccessDescription": "Du wurdest erfolgreich abgemeldet.",
+    "logoutErrorTitle": "Abmeldefehler"
+  },
+  "hero": {
+    "title": "💩 Bewerte die Besten & Schlechtesten Toiletten der Welt",
+    "subtitle": "Schluss mit 💀 Toiletten-Roulette. Knips die Kabinen, plauder aus dem Nähkästchen, rette jemandes Hintern.",
+    "welcome": "🚽 Willkommen bei LooView — Bewerten. Knipsen. Spülen.",
+    "description": "Müde von mysteriösen Badezimmererlebnissen? Hilf der Welt, saubere Throne zu finden und die gruseligen Kabinen aufzudecken. Mit LooView kannst du einfach Toiletten auf der ganzen Welt hinzufügen und bewerten. Ob es sich um ein 5-Sterne-Hotel-WC oder eine Horrorfilm-Tankstellenkabine handelt — deine Bewertung zählt.",
+    "browseButton": "Suche eine Anständige Toilette",
+    "shareButton": "Enthülle eine Ekelhafte Kabine",
+    "saveButtsButton": "Beginne Heute, Hintern zu Retten",
+    "previousSlide": "Vorherige Folie",
+    "nextSlide": "Nächste Folie",
+    "goToSlide": "Gehe zu Folie {{slideNum}}",
+    "slideAlt": "Hero Hintergrundbild für Folie {{slideNum}}: {{context}}",
+    "slide2": {
+      "title": "Mach mit bei der LooVolution!",
+      "subtitle": "Deine Erkenntnisse machen einen großen Unterschied. Teile deine Funde und hilf anderen.",
+      "description": "LooView wird von Leuten wie dir betrieben. Jede hinzugefügte Toilette, jede geschriebene Bewertung hilft, eine globale Karte zuverlässiger Toiletten zu erstellen. Werde zur LooLegende!",
+      "cta1": "Teile Dein Erstes Klo",
+      "cta2": "Siehe Top-Mitwirkende"
+    },
+    "slide3": {
+      "title": "Finde Deinen Thron, Überall.",
+      "subtitle": "Von belebten Stadtzentren bis zu abgelegenen Wanderwegen, LooView führt dich.",
+      "description": "Nutze unsere erweiterten Filter, um genau das zu finden, was du brauchst: barrierefreie Toiletten, Wickelräume oder einfach den saubersten Ort in der Nähe. Das Abenteuer wartet, und ein anständiges Klo auch.",
+      "titleNew": "Dein Thron Erwartet Dich. Oder Ein Biogefährdung. Finde Es Zuerst Heraus.",
+      "subtitleNew": "Verloren im Großstadtdschungel oder tief im Wald? LooView: Dein Kompass zu den Toiletten.",
+      "descriptionNew": "Ist es eine Fünf-Sterne-Spülung oder ein Ein-Stern-Gestank? Unsere Filter durchschneiden den Mist. Buchstäblich. Zugänglich? Babyfreundlich? Einfach nur überlebensfähig? Wir haben dich. Das Abenteuer ruft – lass dich nicht von einem zwielichtigen Klo aufhalten.",
+      "cta1": "Globale Karte Erkunden",
+      "cta2": "Mehr Über Funktionen Erfahren"
+    }
+  },
+  "landing": {
+    "recentlySpotted": {
+      "title": "Kürzlich Gespottete LooViews",
+      "noToilets": "Noch keine LooViews gespottet. Sei der Erste, der einen hinzufügt!"
+    },
+    "stats": {
+      "title": "LooView in Zahlen",
+      "toiletsRated": "Toiletten Bewertet",
+      "countriesCovered": "Länder Abgedeckt",
+      "reviewsShared": "Bewertungen Geteilt",
+      "photosUploaded": "Fotos Hochgeladen"
+    },
+    "photoStrip": {
+      "titlePart1": "Von Tokio bis Toronto: Das Gute, das Schlechte und",
+      "titlePart2": "Das Porzellan.",
+      "alt": "Vom Benutzer hochgeladenes Foto für {{name}}",
+      "placeholder": "Bald mehr Fotos!"
+    },
+    "mapPreview": {
+      "title": "Entdecke LooViews auf der Karte",
+      "button": "Globale Karte Anzeigen",
+      "fullMapAlert": "Navigation zur vollständigen Karte (Funktion wird implementiert)."
+    },
+    "recentReviews": {
+      "title": "Frisch aus der Kabine"
+    },
+    "topToilets": {
+      "title": "Top-Toiletten Diese Woche"
+    },
+    "dirtiestToilets": {
+      "title": "Schmutzigste Toiletten Diese Woche",
+      "viewDetailsButton": "Details Anzeigen (Wenn du dich traust)"
+    },
+    "leaderboard": {
+      "title": "Top LooTester",
+      "cardTitle": "Top-Mitwirkende",
+      "noContributors": "Noch keine Top-Mitwirkenden aus {{countryName}}. Sei der Erste!",
+      "contributionsAriaLabel": "Beiträge-Symbol"
+    },
+    "whyContribute": {
+      "title": "🚽 Erzähl mal: Warum deine Klo-Bewertungen rocken!",
+      "point1": {
+        "title": "Sei ein Hygiene-Held ✨",
+        "description": "Deine Bewertungen spülen den Dreck weg & heben den Standard für öffentliche Toiletten. Jeder Stern macht einen Unterschied!"
+      },
+      "point2": {
+        "title": "Führe Globetrotter & Einheimische 🗺️",
+        "description": "Hilf deinen Mitmenschen – von Weltreisenden bis zu täglichen Pendlern – einen würdigen Thron zu finden, wenn die Natur ruft."
+      },
+      "point3": {
+        "title": "Halte Toiletten-Kuriositäten fest 📸",
+        "description": "Von palastartigen Toiletten bis zu eigenartiger Sanitärtechnik, dokumentiere die einzigartigen, bizarren und 'das-muss-man-gesehen-haben'-Toilettenerlebnisse."
+      }
+    },
+    "footer": {
+      "about": {
+        "title": "💩 Was ist LooView?",
+        "description": "Bewerten. Knipsen. Spülen. Von Tokio bis Toronto — der Welt helfen, öffentliche Toiletten zu finden (und zu überleben)."
+      },
+      "explore": {
+        "title": "🗺️ Entdecken",
+        "mission": "Unsere Mission",
+        "pressKit": "Pressemappe",
+        "faqSupport": "FAQ / Support",
+        "funFacts": "Toiletten-Fakten"
+      },
+      "community": {
+        "title": "👨‍👩‍👧‍👦 Community",
+        "leaderboard": "Rangliste",
+        "suggestFeature": "Funktion Vorschlagen",
+        "guidelines": "Community-Richtlinien"
+      },
+      "language": {
+        "title": "🌍 Sprache",
+        "placeholder": "Sprache Wählen"
+      },
+      "connect": {
+        "title": "Verbinde dich mit uns",
+        "twitter": "Folge uns auf Twitter",
+        "github": "Folge uns auf GitHub",
+        "linkedin": "Folge uns auf LinkedIn"
+      },
+      "rightsReserved": "Alle Rechte vorbehalten.",
+      "tagline": "Mit 💙 und einem Spritzer 💩 in Amsterdam gebaut — denn jeder hat schon mal einen Ort nach seiner Toilette beurteilt."
+    },
+    "share": {
+      "textBase": "Schau dir diese Toilette auf LooView an: {{name}}. Bewertung: {{rating}}/5.",
+      "textAddress": "Standort: {{address}}.",
+      "textReview": "Bewertung: \"{{review}}\"",
+      "ariaLabel": "Toilette teilen",
+      "ariaLabelReview": "Bewertung teilen"
+    },
+    "toiletPhotoAlt": "Foto von {{name}}",
+    "locationFallback": "Lat: {{lat}}, Lng: {{lng}}",
+    "readMore": "Mehr lesen",
+    "locationDetailsUnavailable": "Standortdetails nicht verfügbar",
+    "reviewCount": "{{count}} Bewertungen",
+    "seeDetails": "Details Anzeigen",
+    "viewDetails": "Details Anzeigen"
+  },
+  "toast": {
+    "shareSuccessTitle": "Erfolgreich geteilt!",
+    "shareSuccessDescriptionLinkCopied": "Teilen-Link in die Zwischenablage kopiert.",
+    "shareErrorCopyFailedTitle": "Link kopieren fehlgeschlagen",
+    "shareErrorCopyFailedDescription": "Konnte Link nicht in die Zwischenablage kopieren.",
+    "shareErrorBlockedTitle": "Teilen Blockiert",
+    "shareErrorBlockedDescription": "Konnte nicht teilen. Bitte Browser-/OS-Berechtigungen prüfen. Link als Fallback in die Zwischenablage kopiert.",
+    "shareErrorGenericTitle": "Konnte nicht teilen",
+    "shareErrorGenericDescription": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es später erneut."
+  },
+  "toiletDetails": {
+    "ratingTitle": "Bewertung",
+    "reviewTitle": "Rezension",
+    "quickTagsTitle": "Schnelle Tags",
+    "featuresTitle": "Merkmale",
+    "locationTitle": "Standort",
+    "locationCoordinates": "Lat: {{lat}}, Lng: {{lng}}",
+    "closeButton": "Schließen",
+    "shareButton": "Teilen"
+  },
+  "about": {
+    "missionTitle": "Unsere Mission bei LooView",
+    "missionSubtitle": "Transparenz, Humor und Gemeinschaft in die Welt der öffentlichen Toiletten zu bringen. Denn eine gute Toilette zu finden, sollte kein Glücksspiel sein.",
+    "dailyDilemmaTitle": "🤔 Das tägliche Dilemma: Warum LooView?",
+    "dailyDilemmaP1": "Schon mal in der Klemme gewesen, verzweifelt auf der Suche nach einer anständigen öffentlichen Toilette? Dieses universelle Gefühl der Unsicherheit – das „Toiletten-Glücksspiel“ – ist der Grund, warum LooView ins Leben gerufen wurde. Wir glauben, dass der Zugang zu sauberen, sicheren und zuverlässigen Toiletteninformationen ein Grundbedürfnis ist, besonders wenn man unterwegs ist, reist oder spezielle Zugänglichkeitsanforderungen hat.",
+    "dailyDilemmaP2": "Herkömmliche Karten erzählen nicht die ganze Geschichte. Ist es sauber? Gibt es Toilettenpapier? Ist es zugänglich? LooView füllt diese Lücke mit echten, von Nutzern erstellten Bewertungen und Fotos.",
+    "coreBeliefsTitle": "✨ Unsere Grundüberzeugungen",
+    "belief": {
+      "transparency": {
+        "title": "Transparenz Scheint",
+        "text": "Ehrliche, ungefilterte Bewertungen und Fotos zeigen das wahre Bild. Keine bösen Überraschungen mehr!"
+      },
+      "community": {
+        "title": "Community-betrieben",
+        "text": "Jeder Beitrag, ob groß oder klein, hilft anderen LooViewern, sich sicherer in der Welt zu bewegen."
+      },
+      "accessibility": {
+        "title": "Zugänglichkeit für Alle",
+        "text": "Die Hervorhebung barrierefreier Einrichtungen ist entscheidend. Wir wollen es jedem leichter machen, geeignete Toiletten zu finden."
+      },
+      "hygiene": {
+        "title": "Hygiene Fördern",
+        "text": "Durch Bewerten und Rezensieren setzt sich unsere Community weltweit für bessere Standards bei öffentlichen Toiletten ein."
+      },
+      "global": {
+        "title": "Globale Reichweite, Lokale Wirkung",
+        "text": "Von deinem Nachbarschaftscafé bis zu einem weit entfernten Reiseziel, LooView ist da."
+      },
+      "humor": {
+        "title": "Eine Prise Humor",
+        "text": "Seien wir ehrlich, Toilettengespräche können lustig sein! Wir umarmen die leichtere Seite dieser essentiellen Suche."
+      }
+    },
+    "howItWorksTitle": "🛠️ So funktioniert LooView: Bewerten. Knipsen. Spülen.",
+    "howItWorksP1": "LooView ist eine Community-getriebene Plattform. Nutzer wie du sind das Herz unserer Mission.",
+    "howItWorksLi1": "<strong>Entdecken:</strong> Durchsuche Toiletten in der Nähe auf unserer interaktiven Karte, filtere nach Funktionen und lies Bewertungen.",
+    "howItWorksLi2": "<strong>Beitragen:</strong> Eine neue Toilette gefunden? Füge sie hinzu! Eine Erfahrung gemacht? Teile deine Bewertung, Rezension und Fotos.",
+    "howItWorksLi3": "<strong>Ermächtigen:</strong> Deine Beiträge helfen anderen, informierte Entscheidungen zu treffen und ermutigen Einrichtungen, ihre Anlagen zu verbessern.",
+    "howItWorksP2": "Es ist einfach: Je mehr wir teilen, desto besser wird das LooView-Erlebnis für alle.",
+    "joinMovementTitle": "🙌 Mach mit bei der LooVolution!",
+    "joinMovementP1": "Bereit, einen Unterschied zu machen, eine Spülung nach der anderen? Deine Erkenntnisse können Millionen helfen. Beginne damit, deine erste Bewertung hinzuzufügen oder tolle (und nicht so tolle) Toiletten in deiner Nähe zu entdecken.",
+    "joinMovementButtonShare": "Teile deine Toiletten-Erfahrung",
+    "joinMovementButtonExplore": "Toiletten Jetzt Entdecken"
+  },
+  "pressKit": {
+    "title": "LooView Pressemappe",
+    "subtitle": "Alles, was Sie über LooView wissen müssen, die revolutionäre App zum Finden und Bewerten öffentlicher Toiletten weltweit.",
+    "logoAlt": "LooView Offizielles Logo",
+    "about": {
+      "title": "Über LooView",
+      "p1": "LooView ist eine Community-gesteuerte Plattform, die Menschen dabei hilft, saubere, sichere und zuverlässige öffentliche Toiletten zu finden. Wir glauben, dass der Zugang zu guten Toilettenanlagen eine Grundnotwendigkeit ist, und unsere Mission ist es, diese Informationen für jeden und überall leicht zugänglich zu machen.",
+      "p2": "Mit einer Mischung aus nutzergenerierten Bewertungen, Fotos und detaillierten Funktions-Tags zielt LooView darauf ab, das Rätselraten bei der Suche nach einer geeigneten Toilette zu beenden, egal ob Sie in Ihrer Heimatstadt sind oder um die Welt reisen. Wir bringen auch ein wenig Humor in das oft tabuisierte Thema Toiletten, denn warum nicht?"
+    },
+    "features": {
+      "title": "Hauptmerkmale",
+      "feature1": {
+        "title": "Bewerten, Knipsen, Spülen",
+        "description": "Benutzer können Toiletten einfach bewerten, Fotos hochladen und detaillierte Bewertungen über ihre Erfahrungen teilen."
+      },
+      "feature2": {
+        "title": "Interaktive Karte",
+        "description": "Entdecken Sie Toiletten in der Nähe mit unserer intuitiven Karte, komplett mit Filtern für Funktionen wie Barrierefreiheit und Wickelstationen."
+      },
+      "feature3": {
+        "title": "Community-betrieben",
+        "description": "Unsere Plattform lebt von Nutzerbeiträgen und schafft so eine ständig aktualisierte und zuverlässige Ressource für alle."
+      }
+    },
+    "assets": {
+      "title": "Markenmaterialien",
+      "logos": {
+        "title": "Logos",
+        "description": "Laden Sie unsere offiziellen Logos in verschiedenen Formaten herunter.",
+        "logo1Alt": "LooView Primärlogo",
+        "logo1Label": "Primärlogo (für helle Hintergründe)",
+        "logo2Alt": "LooView Sekundärlogo",
+        "logo2Label": "Umgekehrtes Logo (für dunkle Hintergründe)",
+        "downloadButton": "Logo-Paket herunterladen"
+      },
+      "colors": {
+        "title": "Farbpalette",
+        "description": "Unsere offiziellen Markenfarben."
+      }
+    },
+    "team": {
+      "title": "Unsere Geschichte & Team",
+      "subtitle": "Die Spülkraft hinter LooView",
+      "p1": "LooView entstand aus einem einfachen, universellen Bedürfnis: eine anständige Toilette zu finden, wenn man unterwegs ist. Unser Team ist leidenschaftlich daran interessiert, eine nützliche, ansprechende und leicht skurrile Plattform zu schaffen, die einen echten Unterschied im Alltag und auf Reisen der Menschen macht. Wir sind eine kleine, engagierte Gruppe von Entwicklern, Designern und Toiletten-Enthusiasten, die sich dafür einsetzen, die Transparenz öffentlicher Toiletten weltweit zu verbessern.",
+      "learnMoreButton": "Erfahren Sie mehr über unsere Mission"
+    },
+    "contact": {
+      "title": "Kontakt aufnehmen",
+      "description": "Für Medienanfragen, Partnerschaftsmöglichkeiten oder einfach nur um Hallo zu sagen, kontaktieren Sie uns bitte.",
+      "email": "presse@looview.com",
+      "emailButton": "E-Mail senden",
+      "faqButton": "FAQ / Support besuchen"
+    },
+    "news": {
+      "title": "In den Nachrichten",
+      "placeholder": "Wir sorgen für Furore! Schauen Sie bald wieder vorbei für unsere neuesten Medienerwähnungen."
+    }
+  },
+  "support": {
+    "hero": {
+      "title": "Brauchen Sie Hilfe? Wir sind für Sie da!",
+      "subtitle": "Finden Sie Antworten auf häufig gestellte Fragen, erfahren Sie, wie Sie beitragen können, oder kontaktieren Sie unser Support-Team."
+    },
+    "faq": {
+      "title": "Häufig Gestellte Fragen",
+      "description": "Haben Sie eine Frage? Wahrscheinlich hat sie schon jemand anderes gestellt! Sehen Sie sich unsere FAQs an.",
+      "item1": {
+        "question": "Wie füge ich eine neue Toilette zu LooView hinzu?",
+        "answer": "Kinderleicht! Klicken Sie einfach auf die Schaltfläche 'Erfahrung Teilen' oder 'Toilette Hinzufügen', geben Sie Details wie Name, Standort (Sie können die Karte verwenden!), Funktionen und Ihre Bewertung ein. Ein Foto hilft auch! Je mehr Infos, desto besser für alle."
+      },
+      "item2": {
+        "question": "Kann ich eine von mir hinzugefügte Toilette oder eine von mir geschriebene Bewertung bearbeiten?",
+        "answer": "Derzeit ist die direkte Bearbeitung von Beiträgen nicht verfügbar. Wenn Sie einen erheblichen Fehler gemacht haben, kontaktieren Sie bitte den Support mit den Details, und wir helfen Ihnen weiter. Wir arbeiten daran, Bearbeitungen in Zukunft zu vereinfachen!"
+      },
+      "item3": {
+        "question": "Welche Art von Fotos sollte ich hochladen?",
+        "answer": "Zeigen Sie uns die Realität! Sauber oder unordentlich, wir wollen es sehen. Gute Fotos zeigen die Toilette selbst, den Waschbeckenbereich, die allgemeine Sauberkeit und besondere Merkmale (wie eine Wickelstation oder barrierefreie Hilfsmittel). Bitte vermeiden Sie Fotos mit Personen aus Datenschutzgründen."
+      },
+      "item4": {
+        "question": "Wie wird die Durchschnittsbewertung berechnet?",
+        "answer": "Die Durchschnittsbewertung ist ein einfacher Mittelwert aller Nutzerbewertungen für diese spezifische Toilette. Mehr Bewertungen führen zu einem genaueren Durchschnitt, also immer her damit!"
+      },
+      "item5": {
+        "question": "Ich habe eine unangemessene Bewertung oder ein Foto gefunden. Was soll ich tun?",
+        "answer": "Bitte melden Sie es sofort! Nutzen Sie die Funktion 'Problem Melden' (Details unten) oder kontaktieren Sie uns direkt. Wir nehmen die Sicherheit der Community und die Angemessenheit von Inhalten sehr ernst."
+      }
+    },
+    "contact": {
+      "title": "Noch Hilfe nötig? Kontaktieren Sie uns!",
+      "email": {
+        "title": "E-Mail-Support",
+        "description": "Für allgemeine Anfragen, Support-Anfragen oder Feedback.",
+        "address": "support@looview.com",
+        "responseInfo": "Wir bemühen uns, innerhalb von 24-48 Geschäftsstunden zu antworten.",
+        "button": "Senden Sie uns eine E-Mail"
+      },
+      "community": {
+        "title": "Community-Forum",
+        "description": "Stellen Sie Fragen, teilen Sie Tipps und vernetzen Sie sich mit anderen LooViewern.",
+        "forumInfo": "Unser Community-Forum ist ein großartiger Ort, um Hilfe von anderen Nutzern zu erhalten oder LooView-Funktionen zu diskutieren.",
+        "button": "Community-Forum besuchen"
+      }
+    },
+    "reportProblem": {
+      "title": "Ein Problem Melden",
+      "description": "Haben Sie ein Problem mit einem Eintrag, einer Bewertung oder der App selbst entdeckt?",
+      "instructions": "Bitte geben Sie so viele Details wie möglich an, einschließlich des Toilettennamens/Standorts, falls zutreffend, und einer Beschreibung des Problems.",
+      "button": "Ein Problem Melden",
+      "microcopy": "Helfen Sie uns, den Thron sauber zu halten."
+    },
+    "featureRequest": {
+        "title": "Funktion Vorschlagen",
+        "description": "Haben Sie eine brillante Idee, um LooView noch besser zu machen?",
+        "instructions": "Wir freuen uns über Ihre Vorschläge! Lassen Sie uns wissen, welche Funktionen Sie gerne sehen würden.",
+        "button": "Funktion Vorschlagen",
+        "microcopy": "Ihr Geistesblitz könnte unser nächstes Update inspirieren!"
+    },
+    "resources": {
+      "title": "Nützliche Ressourcen",
+      "description": "Erfahren Sie mehr über LooView und unsere Community.",
+      "aboutLink": "Über LooView",
+      "guidelinesLink": "Community-Richtlinien",
+      "pressKitLink": "Pressemappe"
+    }
+  },
+  "leaderboard": {
+    "pageTitle": "LooView Champions",
+    "pageSubtitle": "Sehen Sie, wer die Konkurrenz wegspült und LooView legendär macht!",
+    "global": {
+      "title": "Globale Ranglisten",
+      "description": "Die engagiertesten Klo-Rezensenten der Welt.",
+      "rank": "Rang",
+      "user": "Benutzer",
+      "contributions": "Beiträge",
+      "country": "Land",
+      "badge": "Abzeichen"
+    },
+    "byCountry": {
+      "title": "Nationale Helden",
+      "description": "Top-Beiträger aus jeder Nation.",
+      "selectCountry": "Wählen Sie ein Land"
+    },
+    "hallOfFame": {
+      "title": "Ruhmeshalle",
+      "description": "Legenden, die einen bleibenden Einfluss auf LooView hatten."
+    },
+    "noContributors": "Noch keine Top-Beiträger in dieser Kategorie. Seien Sie der Erste!",
+    "medals": {
+      "gold": "Goldmedaille",
+      "silver": "Silbermedaille",
+      "bronze": "Bronzemedaille"
+    }
+  },
+  "profile": {
+    "pageTitle": "Mein LooView Profil",
+    "loading": "Profil wird geladen...",
+    "editProfile": "Profil Bearbeiten",
+    "displayName": "Anzeigename",
+    "email": "E-Mail",
+    "joinedLabel": "Beigetreten:",
+    "contributionsLabel": "Beiträge",
+    "recentActivityTitle": "Letzte Aktivitäten",
+    "recentActivityPlaceholder": "Deine letzten Bewertungen und hinzugefügten Toiletten erscheinen hier.",
+    "viewAllActivity": "Alle Aktivitäten Anzeigen",
+    "settingsTitle": "Einstellungen",
+    "settingsPlaceholder": "Verwalte hier deine Kontoeinstellungen und Präferenzen.",
+    "manageSettings": "Einstellungen Verwalten",
+    "bannerAlt": "Profil-Bannerbild",
+    "bioPlaceholder": "Toiletten-Entdecker und außerordentlicher Rezensent!",
+    "roleAdmin": "Administrator",
+    "roleUser": "LooViewer"
+  },
+  "login": {
+    "title": "Willkommen Zurück bei LooView!",
+    "description": "Melde dich an, um deine Reise des Entdeckens und Bewertens von Toiletten fortzusetzen.",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "du@beispiel.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "••••••••",
+    "submitButton": "Anmelden",
+    "loadingButton": "Anmelden...",
+    "forgotPasswordLink": "Passwort vergessen?",
+    "noAccountPrompt": "Noch kein Konto?",
+    "signUpLink": "Registrieren",
+    "successTitle": "Anmeldung Erfolgreich!",
+    "successDescription": "Willkommen zurück! Du bist jetzt angemeldet.",
+    "errorTitle": "Anmeldung Fehlgeschlagen",
+    "errorInvalidCredentials": "Ungültige E-Mail-Adresse oder falsches Passwort. Bitte versuche es erneut.",
+    "errorDefault": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es später erneut."
+  },
+  "signup": {
+    "title": "Tritt der LooView Crew bei!",
+    "description": "Erstelle ein Konto, um mit dem Bewerten, Fotografieren und Spülen der WCs der Welt zu beginnen.",
+    "displayNameLabel": "Anzeigename",
+    "displayNamePlaceholder": "KloLegende27",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "du@beispiel.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "•••••••• (min. 6 Zeichen)",
+    "confirmPasswordLabel": "Passwort Bestätigen",
+    "confirmPasswordPlaceholder": "••••••••",
+    "submitButton": "Konto Erstellen",
+    "loadingButton": "Konto Erstellen...",
+    "errorDisplayNameMin": "Anzeigename muss mindestens 3 Zeichen lang sein.",
+    "errorDisplayNameMax": "Anzeigename darf höchstens 50 Zeichen lang sein.",
+    "errorEmailInvalid": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "errorPasswordMin": "Passwort muss mindestens 6 Zeichen lang sein.",
+    "errorPasswordMismatch": "Passwörter stimmen nicht überein. Bitte gib sie erneut ein.",
+    "errorEmailInUse": "Diese E-Mail-Adresse wird bereits verwendet. Versuche dich anzumelden oder verwende eine andere E-Mail-Adresse.",
+    "errorWeakPassword": "Passwort ist zu schwach. Bitte wähle ein stärkeres.",
+    "errorDefault": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es später erneut.",
+    "successTitle": "Konto Erstellt!",
+    "successDescription": "Willkommen bei LooView! Du kannst jetzt loslegen.",
+    "loginPrompt": "Hast du schon ein Konto?",
+    "loginLink": "Hier Anmelden"
+  },
+  "forgotPassword": {
+    "title": "Passwort Vergessen?",
+    "description": "Keine Sorge! Gib deine E-Mail-Adresse ein und wir senden dir einen Link zum Zurücksetzen.",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "du@beispiel.com",
+    "submitButton": "Link zum Zurücksetzen Senden",
+    "loadingButton": "Senden...",
+    "loginLink": "Zurück zum Login",
+    "noAccountPrompt": "Noch kein Konto?",
+    "signUpLink": "Registrieren",
+    "successTitle": "Link zum Zurücksetzen Gesendet!",
+    "successDescription": "Wenn ein Konto für {{email}} existiert, erhältst du eine E-Mail mit Anweisungen zum Zurücksetzen deines Passworts.",
+    "errorTitle": "Zurücksetzen Fehlgeschlagen",
+    "errorUserNotFound": "Kein Konto mit dieser E-Mail-Adresse gefunden.",
+    "errorEmailInvalid": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "errorDefault": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es später erneut."
+  },
+  "toiletFun": {
+    "pageTitle": "Toiletten-Fakten, von denen du nicht wusstest, dass du sie brauchst 🚽",
+    "pageSubtitle": "Von goldenen Thronen in Palästen bis zu Hocktoiletten in Dschungel-Hostels – tauche ein in die faszinierende, bizarre und geradezu schmutzige Welt der Toiletten.",
+    "factsSectionTitle": "Zufällige Klo-Fakten",
+    "typesSectionTitle": "Das Klo-Lexikon: Arten von Thronen",
+    "likes": "Likes",
+    "share": "Teilen",
+    "learnMore": "Mehr Erfahren",
+    "filter": {
+      "mostLiked": "Am beliebtesten",
+      "random": "Zufällig"
+    },
+    "toast": {
+      "liked": {
+        "title": "Spülender Fan!",
+        "description": "Danke für die Liebe!"
+      }
+    },
+    "contribution": {
+      "title": "Hast du einen beschissenen Fakt zu teilen?",
+      "description": "Denkst du, du kennst eine Toiletten-Anekdote, die uns zum Keuchen, Kichern oder 'Igitt'-Sagen bringt? Sei nicht schüchtern, spül sie uns zu!",
+      "buttonAdd": "Füge deinen eigenen Toiletten-Fakt hinzu"
+    },
+    "facts": {
+      "japanRules": {
+        "title": "Japan regiert",
+        "text": "Die meisten japanischen Toiletten haben mehr Knöpfe als deine Fernbedienung. Manche sagen sogar Hallo."
+      },
+      "goldenCrap": {
+        "title": "Goldener Mist",
+        "text": "In Hongkong gibt es eine Toilette aus massivem Gold. Kein Witz."
+      },
+      "ancientOversharing": {
+        "title": "Antikes Überteilen",
+        "text": "Im alten Rom saß man beim Toilettengang Ellbogen an Ellbogen. Gemütlich."
+      },
+      "skyPooper": {
+        "title": "Himmelskacker",
+        "text": "In China gibt es Toiletten in Glasaufzügen mit Aussicht. Furchterregend."
+      },
+      "toiletTunes": {
+        "title": "Toiletten-Melodien",
+        "text": "In Japan helfen gefälschte Spülgeräusche, deine... Symphonien zu übertönen."
+      },
+      "globalFlush": {
+        "title": "Globale Spülung",
+        "text": "Weltweit werden JEDEN TAG rund 141 Milliarden Liter Wasser die Toilette hinuntergespült! 🤯 Das reicht, um jährlich etwa 56 Millionen olympische Schwimmbecken zu füllen. Vielleicht Wasser sparen, mit einem Freund duschen? 😉"
+      },
+      "greatStink": {
+        "title": "Der Große Gestank",
+        "description": "Im Sommer 1858 erlebte London den \"Großen Gestank\" aus der Themse aufgrund von unbehandeltem Abwasser. Es war so schlimm, dass das Parlament einen Umzug in Erwägung zog! Ein Beweis dafür, dass manche Dinge einfach gehen müssen! 🤢"
+      },
+      "toiletPaperOrigins": {
+        "title": "Ursprünge des Toilettenpapiers",
+        "text": "Bevor Joseph Gayetty 1857 Toilettenpapier kommerziell herstellte, wurden die Leute kreativ. Blätter, Lumpen, Maiskolben... sogar Schnee in kälteren Klimazonen! Lässt einen die weiche Rolle schätzen, oder? 🍑❄️"
+      }
+    },
+    "types": {
+      "squat": {
+        "name": "Die Hocktoilette",
+        "description": "Das klassische 'Loch-im-Boden'-Erlebnis. Großartig für deine Oberschenkel!",
+        "rating": "⭐⭐⭐ Wangen-auf-kaltem-Beton-Erlebnis"
+      },
+      "holeInFloor": {
+        "name": "Das einfache Loch",
+        "description": "Einfach, effektiv und manchmal etwas zu nah an der Natur.",
+        "rating": "⭐ 'Hoffen und beten', dass du nichts fallen lässt."
+      },
+      "portable": {
+        "name": "Das Festival-Dixiklo",
+        "description": "Der Festival-Favorit! Oder Albtraum. Oft beides.",
+        "rating": "⭐ Einer 'Überlebt'-Medaille würdig."
+      },
+      "smart": {
+        "name": "Das Smart-WC (japanischer Stil)",
+        "description": "Mehr Knöpfe als ein Cockpit. Beheizter Sitz, Bidet, Trockner... die Zukunft ist jetzt!",
+        "rating": "⭐⭐⭐⭐⭐ Der Rolls Royce unter den Klos."
+      },
+      "compost": {
+        "name": "Das Kompostklo",
+        "description": "Umweltfreundlich und überraschend geruchlos (meistens).",
+        "rating": "⭐⭐⭐ Für den bewussten Kacker."
+      },
+      "design": {
+        "name": "Das 'künstlerische' Design-Klo",
+        "description": "Ist es Kunst? Ist es ein Klo? Wahrscheinlich beides. Oft unbequem.",
+        "rating": "⭐⭐ 'Anschauen, nicht anfassen'-Atmosphäre."
+      }
+    }
+  },
+  "constants": {
+    "locationTypes": {
+      "restaurant": "Restaurant",
+      "hotel": "Hotel",
+      "cafeBar": "Café/Bar",
+      "shoppingMall": "Einkaufszentrum",
+      "trainStation": "Bahnhof",
+      "park": "Park",
+      "school": "Schule",
+      "publicSpace": "Öffentlicher Raum",
+      "gasStation": "Tankstelle",
+      "home": "Zuhause",
+      "studentHouse": "Studentenwohnheim",
+      "other": "Andere"
+    },
+    "accessibilityOptions": {
+      "yes": "Ja",
+      "no": "Nein",
+      "notSure": "Nicht Sicher"
+    },
+    "toiletFeatures": {
+      "babyChanging": { "label": "Wickeltisch", "description": "Für die Kleinen, die ein großes Durcheinander machen." },
+      "hasSoap": { "label": "Seife Vorhanden", "description": "Keine Seife = keine Hoffnung. Lass es uns wissen!" },
+      "hasToiletPaper": { "label": "Toilettenpapier", "description": "Der MVP jeder guten Toilette. War es da?" }
+    },
+    "toiletTypes": {
+      "sitting": { "label": "Sitztoilette", "description": "Der klassische Thron." },
+      "squat": { "label": "Hocktoilette", "description": "Eine andere Art der Erleichterung." },
+      "urinal": { "label": "Urinal", "description": "Für einen schnellen Boxenstopp." },
+      "attended": { "label": "Beaufsichtigte Toilette", "description": "Service mit einem Lächeln (hoffentlich)." },
+      "womenOnly": { "label": "Nur für Frauen", "description": "Ausschließlich für Frauen." },
+      "menOnly": { "label": "Nur für Männer", "description": "Ausschließlich für Männer." },
+      "genderNeutral": { "label": "Geschlechtsneutral", "description": "Für alle." }
+    },
+    "quickTagCategories": {
+      "positive": { "title": "Positive Vibes ✨" },
+      "neutral": { "title": "Nur die Fakten 🤷" },
+      "negative": { "title": "Oh Oh... 💩" }
+    },
+    "quickTags": {
+      "best_visit_ever": { "label": "Bester Besuch Aller Zeiten" },
+      "spotless_clean": { "label": "Makellos Sauber" },
+      "quick_easy": { "label": "Schnell & Einfach" },
+      "well_lit_safe": { "label": "Gut Beleuchtet & Sicher" },
+      "nothing_special": { "label": "Nichts Besonderes" },
+      "just_ok": { "label": "Einfach OK" },
+      "total_disaster": { "label": "Totales Desaster" },
+      "smelled_awful": { "label": "Roch Schrecklich" },
+      "no_toilet_paper": { "label": "Kein Toilettenpapier" },
+      "long_wait": { "label": "Lange Wartezeit" },
+      "emergency_exit_only": { "label": "Nur Notausgang?" }
+    }
+  }
+}

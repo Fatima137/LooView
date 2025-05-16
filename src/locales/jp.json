@@ -1,0 +1,586 @@
+
+{
+  "header": {
+    "shareExperience": "体験を共有",
+    "selectLanguage": "言語を選択",
+    "loginButton": "ログイン",
+    "logoutButton": "ログアウト",
+    "profileLink": "マイプロフィール",
+    "adminConsoleLink": "管理コンソール",
+    "loginRequiredTitle": "ログインが必要です",
+    "loginRequiredDescriptionShare": "体験を共有するにはログインしてください。",
+    "logoutSuccessTitle": "ログアウトしました",
+    "logoutSuccessDescription": "正常にログアウトしました。",
+    "logoutErrorTitle": "ログアウトエラー"
+  },
+  "hero": {
+    "title": "💩 世界で最も優れた、そして最悪なトイレを評価しよう",
+    "subtitle": "もう💀ウンちルーレットは終わり。個室を撮って、情報を流して、誰かのお尻を救おう。",
+    "welcome": "🚽 LooViewへようこそ — 評価して、撮って、流そう。",
+    "description": "謎めいたトイレ体験にうんざりしていませんか？世界中の清潔なトイレを見つけ、恐ろしい個室を暴く手助けをしましょう。LooViewを使えば、世界中のトイレを簡単に追加し、評価できます。5つ星ホテルのパウダールームであろうと、ホラー映画に出てくるようなガソリンスタンドの個室であろうと、あなたのレビューが重要です。",
+    "browseButton": "まともなトイレを探し出せ",
+    "shareButton": "汚い個室を暴露しろ",
+    "saveButtsButton": "今日からお尻を救い始めよう",
+    "previousSlide": "前のスライド",
+    "nextSlide": "次のスライド",
+    "goToSlide": "スライド {{slideNum}} に移動",
+    "slideAlt": "スライド {{slideNum}} のヒーロー背景画像: {{context}}",
+    "slide2": {
+      "title": "LooVolutionに参加しよう！",
+      "subtitle": "あなたの洞察が大きな違いを生みます。発見を共有し、他の人を助けましょう。",
+      "description": "LooViewはあなたのような人々によって支えられています。追加されたすべてのトイレ、書かれたすべてのレビューが、信頼できるトイレのグローバルマップの構築に役立ちます。LooLegendになりましょう！",
+      "cta1": "最初のトイレを共有する",
+      "cta2": "トップ貢献者を見る"
+    },
+    "slide3": {
+      "title": "どこでもあなたの王座を見つけよう。",
+      "subtitle": "賑やかな市内中心部から人里離れたハイキングコースまで、LooViewが案内します。",
+      "description": "高度なフィルターを使用して、必要なものを正確に見つけましょう。バリアフリートイレ、おむつ交換台、または単に近くで最も清潔な場所など。冒険が待っています。そして、まともなトイレも。",
+      "titleNew": "あなたの王座が待っている。あるいはバイオハザードか。まず確認だ。",
+      "subtitleNew": "都会のジャングルで迷ったか、森の奥深くか？LooView：便器への羅針盤。",
+      "descriptionNew": "それは五つ星の洗浄か、一つ星の悪臭か？我々のフィルターがクソを切り裂く。文字通りだ。バリアフリー？ベビーフレンドリー？ただ単に生存可能か？任せろ。冒険が呼んでいる – 怪しい便所に止められるな。",
+      "cta1": "グローバルマップを探索する",
+      "cta2": "機能について学ぶ"
+    }
+  },
+  "landing": {
+    "recentlySpotted": {
+      "title": "最近見つかったLooView",
+      "noToilets": "まだLooViewは見つかっていません。最初に追加してみましょう！"
+    },
+    "stats": {
+      "title": "数字で見るLooView",
+      "toiletsRated": "評価されたトイレ",
+      "countriesCovered": "カバー国数",
+      "reviewsShared": "共有されたレビュー",
+      "photosUploaded": "アップロードされた写真"
+    },
+    "photoStrip": {
+      "titlePart1": "東京からトロントまで：良いもの、悪いもの、そして",
+      "titlePart2": "磁器製のもの。",
+      "alt": "{{name}} のためにユーザーがアップロードした写真",
+      "placeholder": "写真は近日公開！"
+    },
+    "mapPreview": {
+      "title": "地図でLooViewを探す",
+      "button": "グローバルマップを見る",
+      "fullMapAlert": "フルマップへ移動中（機能は実装予定）。"
+    },
+    "recentReviews": {
+      "title": "個室から直送"
+    },
+    "topToilets": {
+      "title": "今週のトップトイレ"
+    },
+    "dirtiestToilets": {
+      "title": "今週の最悪トイレ",
+      "viewDetailsButton": "詳細を見る（勇気があれば）"
+    },
+    "leaderboard": {
+      "title": "トップLooテスター",
+      "cardTitle": "トップ貢献者",
+      "noContributors": "{{countryName}} からのトップ貢献者はまだいません。最初の一人になりましょう！",
+      "contributionsAriaLabel": "貢献アイコン"
+    },
+    "whyContribute": {
+      "title": "🚽 教えて：あなたのトイレレビューが最高な理由！",
+      "point1": {
+        "title": "衛生ヒーローになろう ✨",
+        "description": "あなたの評価が汚れを洗い流し、公衆トイレの基準を引き上げます。星一つ一つが大きな違いを生むのです！"
+      },
+      "point2": {
+        "title": "旅行者と地元民を導く 🗺️",
+        "description": "世界を旅する人から毎日の通勤者まで、自然が呼んでいる時にふさわしい王座を見つける手助けをしましょう。"
+      },
+      "point3": {
+        "title": "便器の珍百景を記録する 📸",
+        "description": "豪華なトイレから奇妙な配管まで、ユニークで奇抜な、「これは見なきゃ損」なトイレ体験を記録しましょう。"
+      }
+    },
+    "footer": {
+      "about": {
+        "title": "💩 LooViewとは？",
+        "description": "評価して、撮って、流そう。東京からトロントまで — 世界が公衆トイレを見つけ（そして生き残る）のを助けます。"
+      },
+      "explore": {
+        "title": "🗺️ 探検する",
+        "mission": "私たちの使命",
+        "pressKit": "プレスキット",
+        "faqSupport": "FAQ / サポート",
+        "funFacts": "トイレの豆知識"
+      },
+      "community": {
+        "title": "👨‍👩‍👧‍👦 コミュニティ",
+        "leaderboard": "リーダーボード",
+        "suggestFeature": "機能を提案",
+        "guidelines": "コミュニティガイドライン"
+      },
+      "language": {
+        "title": "🌍 言語",
+        "placeholder": "言語を選択"
+      },
+      "connect": {
+        "title": "私たちとつながる",
+        "twitter": "Twitterでフォロー",
+        "github": "GitHubでフォロー",
+        "linkedin": "LinkedInでフォロー"
+      },
+      "rightsReserved": "無断複写・転載を禁じます。",
+      "tagline": "アムステルダムで💙と💩を少々込めて作られました — だって、誰もがトイレで場所を判断したことがあるから。"
+    },
+    "share": {
+      "textBase": "LooViewでこのトイレをチェック：{{name}}。評価：{{rating}}/5。",
+      "textAddress": "場所：{{address}}。",
+      "textReview": "レビュー：「{{review}}」",
+      "ariaLabel": "トイレを共有",
+      "ariaLabelReview": "レビューを共有"
+    },
+    "toiletPhotoAlt": "{{name}} の写真",
+    "locationFallback": "緯度：{{lat}}、経度：{{lng}}",
+    "readMore": "続きを読む",
+    "locationDetailsUnavailable": "場所の詳細はありません",
+    "reviewCount": "{{count}}件のレビュー",
+    "seeDetails": "詳細を見る",
+    "viewDetails": "詳細を見る"
+  },
+  "toast": {
+    "shareSuccessTitle": "正常に共有されました！",
+    "shareSuccessDescriptionLinkCopied": "共有リンクがクリップボードにコピーされました。",
+    "shareErrorCopyFailedTitle": "リンクのコピーに失敗しました",
+    "shareErrorCopyFailedDescription": "リンクをクリップボードにコピーできませんでした。",
+    "shareErrorBlockedTitle": "共有がブロックされました",
+    "shareErrorBlockedDescription": "共有できませんでした。ブラウザ/OSの権限を確認してください。フォールバックとしてリンクがクリップボードにコピーされました。",
+    "shareErrorGenericTitle": "共有できませんでした",
+    "shareErrorGenericDescription": "予期せぬエラーが発生しました。後でもう一度お試しください。"
+  },
+  "toiletDetails": {
+    "ratingTitle": "評価",
+    "reviewTitle": "レビュー",
+    "quickTagsTitle": "クイックタグ",
+    "featuresTitle": "設備",
+    "locationTitle": "場所",
+    "locationCoordinates": "緯度：{{lat}}、経度：{{lng}}",
+    "closeButton": "閉じる",
+    "shareButton": "共有"
+  },
+  "about": {
+    "missionTitle": "LooViewの使命",
+    "missionSubtitle": "公衆トイレの世界に透明性、ユーモア、コミュニティをもたらすこと。良いトイレを見つけることがギャンブルであってはならないから。",
+    "dailyDilemmaTitle": "🤔 日常のジレンマ：なぜLooViewなのか？",
+    "dailyDilemmaP1": "まともな公衆トイレを切実に探していて困ったことはありませんか？その普遍的な不安感、つまり「トイレギャンブル」こそがLooViewが生まれた理由です。私たちは、清潔で安全、そして信頼できるトイレ情報へのアクセスは、特に外出中、旅行中、または特定のアクセシビリティ要件がある場合に基本的なニーズであると信じています。",
+    "dailyDilemmaP2": "従来の地図は全体像を伝えてくれません。清潔か？トイレットペーパーはあるか？アクセスしやすいか？LooViewは、ユーザーが作成した実際のレビューと写真でこのギャップを埋めます。",
+    "coreBeliefsTitle": "✨ 私たちの核となる信念",
+    "belief": {
+      "transparency": {
+        "title": "透明性が輝く",
+        "text": "正直でフィルターのかかっていないレビューと写真が実像を提供します。もう不快な驚きはありません！"
+      },
+      "community": {
+        "title": "コミュニティ主導",
+        "text": "大小を問わず、すべての貢献が仲間のLooViewerがより自信を持って世界をナビゲートするのに役立ちます。"
+      },
+      "accessibility": {
+        "title": "すべての人のためのアクセシビリティ",
+        "text": "アクセスしやすい施設を強調することが重要です。私たちは誰もが適切なトイレを簡単に見つけられるようにすることを目指しています。"
+      },
+      "hygiene": {
+        "title": "衛生の推進",
+        "text": "評価とレビューを通じて、私たちのコミュニティは世界中の公衆トイレのより良い基準を提唱しています。"
+      },
+      "global": {
+        "title": "グローバルなリーチ、ローカルなインパクト",
+        "text": "近所のカフェから遠く離れた旅行先まで、LooViewはそこにあります。"
+      },
+      "humor": {
+        "title": "ユーモアを少々",
+        "text": "正直に言うと、トイレの話は面白いことがあります！私たちはこの不可欠な探求の明るい側面を受け入れます。"
+      }
+    },
+    "howItWorksTitle": "🛠️ LooViewの仕組み：評価して、撮って、流そう。",
+    "howItWorksP1": "LooViewはコミュニティ主導のプラットフォームです。あなたのようなユーザーが私たちの使命の中心です。",
+    "howItWorksLi1": "<strong>発見：</strong>インタラクティブマップで近くのトイレを閲覧し、機能でフィルタリングし、レビューを読みます。",
+    "howItWorksLi2": "<strong>貢献：</strong>新しいトイレを見つけましたか？追加してください！体験をしましたか？評価、レビュー、写真を共有してください。",
+    "howItWorksLi3": "<strong>エンパワー：</strong>あなたの貢献は他の人が情報に基づいた決定を下すのに役立ち、施設が設備を改善することを奨励します。",
+    "howItWorksP2": "シンプルです：私たちが共有すればするほど、LooViewの体験は誰にとってもより良くなります。",
+    "joinMovementTitle": "🙌 LooVolutionに参加しよう！",
+    "joinMovementP1": "一度に一回の水洗いで変化を起こす準備はできましたか？あなたの洞察は何百万人もの人々を助けることができます。最初のレビューを追加するか、近くの素晴らしい（そしてそうでもない）トイレを発見することから始めましょう。",
+    "joinMovementButtonShare": "トイレ体験を共有する",
+    "joinMovementButtonExplore": "今すぐトイレを探す"
+  },
+  "pressKit": {
+    "title": "LooView プレスキット",
+    "subtitle": "世界中の公衆トイレを見つけて評価するための革新的なアプリ、LooViewに関するすべて。",
+    "logoAlt": "LooView 公式ロゴ",
+    "about": {
+      "title": "LooViewについて",
+      "p1": "LooViewは、人々が清潔で安全、そして信頼できる公衆トイレを見つけるのを支援することに特化したコミュニティ主導のプラットフォームです。私たちは、良いトイレ施設へのアクセスは基本的な必要性であると信じており、この情報を誰にとっても、どこでも簡単にアクセスできるようにすることが私たちの使命です。",
+      "p2": "ユーザー生成のレビュー、写真、詳細な機能タグ付けを組み合わせることで、LooViewは、故郷であろうと世界中を旅していようと、適切なトイレを見つける際の当て推量をなくすことを目指しています。また、トイレというしばしばタブー視される話題に少しユーモアを加えています。だって、なぜいけないのでしょう？"
+    },
+    "features": {
+      "title": "主な機能",
+      "feature1": {
+        "title": "評価して、撮って、流す",
+        "description": "ユーザーは簡単にトイレを評価し、写真をアップロードし、体験に関する詳細なレビューを共有できます。"
+      },
+      "feature2": {
+        "title": "インタラクティブマップ",
+        "description": "アクセシビリティやおむつ交換台などの機能のフィルターを備えた直感的なマップで、近くのトイレを発見できます。"
+      },
+      "feature3": {
+        "title": "コミュニティ主導",
+        "description": "私たちのプラットフォームはユーザーの貢献によって成長し、すべての人にとって常に更新される信頼性の高いリソースを作成します。"
+      }
+    },
+    "assets": {
+      "title": "ブランドアセット",
+      "logos": {
+        "title": "ロゴ",
+        "description": "さまざまな形式で公式ロゴをダウンロードしてください。",
+        "logo1Alt": "LooView プライマリロゴ",
+        "logo1Label": "プライマリロゴ（明るい背景用）",
+        "logo2Alt": "LooView セカンダリロゴ",
+        "logo2Label": "反転ロゴ（暗い背景用）",
+        "downloadButton": "ロゴパックをダウンロード"
+      },
+      "colors": {
+        "title": "カラーパレット",
+        "description": "公式ブランドカラー。"
+      }
+    },
+    "team": {
+      "title": "私たちの物語とチーム",
+      "subtitle": "LooViewの背後にある洗浄力",
+      "p1": "LooViewは、外出先でまともなトイレを見つけるという、シンプルで普遍的なニーズから生まれました。私たちのチームは、人々の日常生活や旅行に真の違いをもたらす、便利で魅力的、そして少し風変わりなプラットフォームを作成することに情熱を注いでいます。私たちは、世界中の公衆トイレの透明性を向上させることに尽力している、開発者、デザイナー、トイレ愛好家の小さな献身的なグループです。",
+      "learnMoreButton": "私たちの使命についてもっと知る"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "メディアからのお問い合わせ、パートナーシップの機会、または単に挨拶するために、お問い合わせください。",
+      "email": "press@looview.com",
+      "emailButton": "メールでお問い合わせ",
+      "faqButton": "FAQ / サポートを見る"
+    },
+    "news": {
+      "title": "ニュース",
+      "placeholder": "私たちは話題を呼んでいます！最新のメディア掲載については、まもなくご確認ください。"
+    }
+  },
+  "support": {
+    "hero": {
+      "title": "お困りですか？サポートいたします！",
+      "subtitle": "よくある質問への回答を見つけたり、貢献方法を学んだり、サポートチームに連絡したりできます。"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "質問がありますか？他の誰かも同じ質問をした可能性があります！FAQをご覧ください。",
+      "item1": {
+        "question": "LooViewに新しいトイレを追加するにはどうすればよいですか？",
+        "answer": "簡単です！「体験を共有」または「トイレを追加」ボタンをクリックし、名前、場所（地図を使用できます！）、設備、評価などの詳細を入力します。写真も役立ちます！情報が多いほど、誰にとっても役立ちます。"
+      },
+      "item2": {
+        "question": "追加したトイレや書いたレビューを編集できますか？",
+        "answer": "現在、投稿の直接編集はできません。重大なエラーを犯した場合は、詳細をサポートに連絡してください。サポートいたします。将来的には編集を容易にするよう取り組んでいます！"
+      },
+      "item3": {
+        "question": "どのような写真をアップロードすればよいですか？",
+        "answer": "現実を見せてください！清潔でも汚れていても、見たいです。良い写真には、トイレ自体、洗面台エリア、全体的な清潔さ、特別な設備（おむつ交換台やバリアフリー設備など）が含まれます。プライバシー保護のため、人物が写っている写真は避けてください。"
+      },
+      "item4": {
+        "question": "平均評価はどのように計算されますか？",
+        "answer": "平均評価は、その特定のトイレに対するすべてのユーザー評価の単純平均です。レビューが多いほど平均はより正確になるため、どんどん投稿してください！"
+      },
+      "item5": {
+        "question": "不適切なレビューや写真を見つけました。どうすればよいですか？",
+        "answer": "すぐに報告してください！「問題を報告」機能（詳細は下記）を使用するか、直接お問い合わせください。コミュニティの安全性とコンテンツの適切性を非常に重視しています。"
+      }
+    },
+    "contact": {
+      "title": "まだ助けが必要ですか？お問い合わせください！",
+      "email": {
+        "title": "メールサポート",
+        "description": "一般的なお問い合わせ、サポートリクエスト、フィードバックについて。",
+        "address": "support@looview.com",
+        "responseInfo": "24〜48営業時間以内に返信することを目指しています。",
+        "button": "メールを送信"
+      },
+      "community": {
+        "title": "コミュニティフォーラム",
+        "description": "質問をしたり、ヒントを共有したり、他のLooViewerとつながったりできます。",
+        "forumInfo": "私たちのコミュニティフォーラムは、仲間のユーザーから助けを得たり、LooViewの機能について話し合ったりするのに最適な場所です。",
+        "button": "コミュニティフォーラムにアクセス"
+      }
+    },
+    "reportProblem": {
+      "title": "問題を報告",
+      "description": "リスト、レビュー、またはアプリ自体に問題を見つけましたか？",
+      "instructions": "該当する場合はトイレの名前/場所を含め、問題の説明とともにできるだけ多くの詳細を提供してください。",
+      "button": "問題を報告",
+      "microcopy": "王座を清潔に保つのにご協力ください。"
+    },
+    "featureRequest": {
+        "title": "機能を提案する",
+        "description": "LooViewをさらに良くするための素晴らしいアイデアがありますか？",
+        "instructions": "皆様のご提案をお待ちしております！ご覧になりたい機能をお知らせください。",
+        "button": "機能を提案する",
+        "microcopy": "あなたの天才的なひらめきが、私たちの次のアップデートを刺激するかもしれません！"
+    },
+    "resources": {
+      "title": "役立つリソース",
+      "description": "LooViewと私たちのコミュニティについてもっと調べてください。",
+      "aboutLink": "LooViewについて",
+      "guidelinesLink": "コミュニティガイドライン",
+      "pressKitLink": "プレスキット"
+    }
+  },
+  "leaderboard": {
+    "pageTitle": "LooViewチャンピオン",
+    "pageSubtitle": "誰が競争相手を打ち負かし、LooViewを伝説的なものにしているかをご覧ください！",
+    "global": {
+      "title": "グローバルランキング",
+      "description": "世界で最も熱心なトイレレビュアー。",
+      "rank": "順位",
+      "user": "ユーザー",
+      "contributions": "貢献度",
+      "country": "国",
+      "badge": "バッジ"
+    },
+    "byCountry": {
+      "title": "国のヒーロー",
+      "description": "各国のトップ貢献者。",
+      "selectCountry": "国を選択"
+    },
+    "hallOfFame": {
+      "title": "殿堂入り",
+      "description": "LooViewに永続的な影響を与えたレジェンドたち。"
+    },
+    "noContributors": "このカテゴリにはまだトップ貢献者がいません。最初の一人になりましょう！",
+    "medals": {
+      "gold": "金メダル",
+      "silver": "銀メダル",
+      "bronze": "銅メダル"
+    }
+  },
+  "profile": {
+    "pageTitle": "マイLooViewプロフィール",
+    "loading": "プロフィールを読み込み中...",
+    "editProfile": "プロフィールを編集",
+    "displayName": "表示名",
+    "email": "メールアドレス",
+    "joinedLabel": "参加日:",
+    "contributionsLabel": "貢献数",
+    "recentActivityTitle": "最近のアクティビティ",
+    "recentActivityPlaceholder": "最近のレビューや追加したトイレがここに表示されます。",
+    "viewAllActivity": "すべてのアクティビティを表示",
+    "settingsTitle": "設定",
+    "settingsPlaceholder": "アカウント設定や個人設定をここで管理します。",
+    "manageSettings": "設定を管理",
+    "bannerAlt": "プロフィールバナー画像",
+    "bioPlaceholder": "トイレ探検家であり、並外れたレビュアー！",
+    "roleAdmin": "管理者",
+    "roleUser": "LooViewer"
+  },
+  "login": {
+    "title": "LooViewへようこそ！",
+    "description": "ログインして、トイレの発見と評価の旅を続けてください。",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "••••••••",
+    "submitButton": "ログイン",
+    "loadingButton": "ログイン中...",
+    "forgotPasswordLink": "パスワードをお忘れですか？",
+    "noAccountPrompt": "アカウントをお持ちではありませんか？",
+    "signUpLink": "サインアップ",
+    "successTitle": "ログイン成功！",
+    "successDescription": "おかえりなさい！ログインしました。",
+    "errorTitle": "ログイン失敗",
+    "errorInvalidCredentials": "メールアドレスまたはパスワードが無効です。もう一度お試しください。",
+    "errorDefault": "予期せぬエラーが発生しました。後でもう一度お試しください。"
+  },
+  "signup": {
+    "title": "LooViewクルーに参加しよう！",
+    "description": "アカウントを作成して、世界のトイレを評価、撮影、水洗いを始めましょう。",
+    "displayNameLabel": "表示名",
+    "displayNamePlaceholder": "トイレの伝説27",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "••••••••（最低6文字）",
+    "confirmPasswordLabel": "パスワードを確認",
+    "confirmPasswordPlaceholder": "••••••••",
+    "submitButton": "アカウントを作成",
+    "loadingButton": "アカウント作成中...",
+    "errorDisplayNameMin": "表示名は3文字以上である必要があります。",
+    "errorDisplayNameMax": "表示名は50文字以内である必要があります。",
+    "errorEmailInvalid": "有効なメールアドレスを入力してください。",
+    "errorPasswordMin": "パスワードは6文字以上である必要があります。",
+    "errorPasswordMismatch": "パスワードが一致しません。再入力してください。",
+    "errorEmailInUse": "このメールアドレスは既に使用されています。ログインするか、別のメールアドレスを使用してください。",
+    "errorWeakPassword": "パスワードが弱すぎます。より強力なパスワードを選択してください。",
+    "errorDefault": "予期せぬエラーが発生しました。後でもう一度お試しください。",
+    "successTitle": "アカウント作成完了！",
+    "successDescription": "LooViewへようこそ！これで探索の準備が整いました。",
+    "loginPrompt": "既にアカウントをお持ちですか？",
+    "loginLink": "こちらからログイン"
+  },
+  "forgotPassword": {
+    "title": "パスワードをお忘れですか？",
+    "description": "ご心配なく！メールアドレスを入力していただければ、リセット用のリンクをお送りします。",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "you@example.com",
+    "submitButton": "リセットリンクを送信",
+    "loadingButton": "送信中...",
+    "loginLink": "ログインに戻る",
+    "noAccountPrompt": "アカウントをお持ちではありませんか？",
+    "signUpLink": "サインアップ",
+    "successTitle": "リセットリンク送信完了！",
+    "successDescription": "{{email}} のアカウントが存在する場合、パスワードをリセットするための手順が記載されたメールが送信されます。",
+    "errorTitle": "リセット失敗",
+    "errorUserNotFound": "このメールアドレスのアカウントは見つかりませんでした。",
+    "errorEmailInvalid": "有効なメールアドレスを入力してください。",
+    "errorDefault": "予期せぬエラーが発生しました。後でもう一度お試しください。"
+  },
+  "toiletFun": {
+    "pageTitle": "知らなかったトイレの豆知識 🚽",
+    "pageSubtitle": "宮殿の黄金の便座からジャングルのホステルの和式トイレまで — トイレの魅力的で奇妙、そして率直に言って汚い世界へ飛び込もう。",
+    "factsSectionTitle": "ランダムなトイレの豆知識",
+    "typesSectionTitle": "トイレ用語集：便座の種類",
+    "likes": "いいね！",
+    "share": "共有",
+    "learnMore": "もっと詳しく",
+    "filter": {
+      "mostLiked": "最も「いいね！」されたもの",
+      "random": "ランダム"
+    },
+    "toast": {
+      "liked": {
+        "title": "流れるファン！",
+        "description": "愛をありがとう！"
+      }
+    },
+    "contribution": {
+      "title": "くだらない豆知識を共有しませんか？",
+      "description": "私たちを息をのませたり、くすくす笑わせたり、「うわっ」と言わせたりするようなトイレの豆知識を知っていると思いますか？恥ずかしがらずに、私たちに流してください！",
+      "buttonAdd": "自分のトイレの豆知識を追加する"
+    },
+    "facts": {
+      "japanRules": {
+        "title": "日本が最高",
+        "text": "ほとんどの日本のトイレには、リモコンよりも多くのボタンが付いています。挨拶するものさえあります。"
+      },
+      "goldenCrap": {
+        "title": "黄金のウンチ",
+        "text": "香港には純金のトイレがあります。冗談ではありません。"
+      },
+      "ancientOversharing": {
+        "title": "古代の過剰共有",
+        "text": "古代ローマでは、トイレタイムは肘と肘を突き合わせて座ることを意味しました。居心地が良いですね。"
+      },
+      "skyPooper": {
+        "title": "スカイプーパー",
+        "text": "中国では、一部のトイレは景色を望むガラス張りのエレベーターに設置されています。恐ろしいです。"
+      },
+      "toiletTunes": {
+        "title": "トイレの曲",
+        "text": "日本では、偽の洗浄音があなたの...交響曲を隠すのに役立ちます。"
+      },
+      "globalFlush": {
+        "title": "グローバルな水洗",
+        "text": "世界中で毎日約1410億リットルの水がトイレに流されています！🤯 これは、年間約5600万個のオリンピックサイズのプールを満たすのに十分な量です。もしかしたら節水して、友達とシャワーを浴びる？😉"
+      },
+      "greatStink": {
+        "title": "大悪臭",
+        "description": "1858年の夏、ロンドンは未処理の下水のためにテムズ川から「大悪臭」を経験しました。あまりにもひどかったので、議会は移転を検討しました！時には物事はただ流れ去らなければならないという証拠です！🤢"
+      },
+      "toiletPaperOrigins": {
+        "title": "トイレットペーパーの起源",
+        "text": "1857年にジョセフ・ゲイエティがトイレットペーパーを商業的に生産する前は、人々は創造的でした。葉、ぼろきれ、トウモロコシの穂軸...寒い気候では雪さえも！その柔らかいロールに感謝したくなりますよね？🍑❄️"
+      }
+    },
+    "types": {
+      "squat": {
+        "name": "和式トイレ",
+        "description": "古典的な「地面の穴」体験。太ももに最適です！",
+        "rating": "⭐⭐⭐ 冷たいコンクリートにお尻がつく体験"
+      },
+      "holeInFloor": {
+        "name": "基本的な穴",
+        "description": "シンプルで効果的、そして時には自然に少し近すぎます。",
+        "rating": "⭐ 何も落とさないように「願って祈る」。"
+      },
+      "portable": {
+        "name": "フェスティバルの仮設トイレ",
+        "description": "フェスティバルのお気に入り！または悪夢。しばしば両方です。",
+        "rating": "⭐ 「生き残った」バッジに値します。"
+      },
+      "smart": {
+        "name": "スマートトイレ（日本式）",
+        "description": "コックピットよりも多くのボタン。温水便座、ビデ、乾燥機...未来は今です！",
+        "rating": "⭐⭐⭐⭐⭐ 便器のロールスロイス。"
+      },
+      "compost": {
+        "name": "コンポストトイレ",
+        "description": "環境に優しく、驚くほど無臭です（ほとんどの場合）。",
+        "rating": "⭐⭐⭐ 意識の高い排便者のために。"
+      },
+      "design": {
+        "name": "「芸術的な」デザインのトイレ",
+        "description": "それは芸術ですか？それはトイレですか？おそらく両方です。しばしば不快です。",
+        "rating": "⭐⭐ 「見て触らないで」という雰囲気。"
+      }
+    }
+  },
+  "constants": {
+    "locationTypes": {
+      "restaurant": "レストラン",
+      "hotel": "ホテル",
+      "cafeBar": "カフェ/バー",
+      "shoppingMall": "ショッピングモール",
+      "trainStation": "駅",
+      "park": "公園",
+      "school": "学校",
+      "publicSpace": "公共スペース",
+      "gasStation": "ガソリンスタンド",
+      "home": "家",
+      "studentHouse": "学生寮",
+      "other": "その他"
+    },
+    "accessibilityOptions": {
+      "yes": "はい",
+      "no": "いいえ",
+      "notSure": "不明"
+    },
+    "toiletFeatures": {
+      "babyChanging": { "label": "おむつ交換台", "description": "大きな混乱を引き起こす小さな子供たちのために。" },
+      "hasSoap": { "label": "石鹸あり", "description": "石鹸なし＝希望なし。お知らせください！" },
+      "hasToiletPaper": { "label": "トイレットペーパー", "description": "良いトイレのMVP。ありましたか？" }
+    },
+    "toiletTypes": {
+      "sitting": { "label": "洋式トイレ", "description": "古典的な王座。" },
+      "squat": { "label": "和式トイレ", "description": "異なる種類の安堵感。" },
+      "urinal": { "label": "小便器", "description": "素早いピットストップのために。" },
+      "attended": { "label": "有人トイレ", "description": "笑顔でのサービス（願わくば）。" },
+      "womenOnly": { "label": "女性専用", "description": "女性専用です。" },
+      "menOnly": { "label": "男性専用", "description": "男性専用です。" },
+      "genderNeutral": { "label": "ジェンダーニュートラル", "description": "みんなのために。" }
+    },
+    "quickTagCategories": {
+      "positive": { "title": "ポジティブな雰囲気 ✨" },
+      "neutral": { "title": "事実のみ 🤷" },
+      "negative": { "title": "おっと... 💩" }
+    },
+    "quickTags": {
+      "best_visit_ever": { "label": "史上最高の訪問" },
+      "spotless_clean": { "label": "非の打ちどころなく清潔" },
+      "quick_easy": { "label": "迅速かつ簡単" },
+      "well_lit_safe": { "label": "明るく安全" },
+      "nothing_special": { "label": "特筆すべきことなし" },
+      "just_ok": { "label": "まあまあ" },
+      "total_disaster": { "label": "完全な災害" },
+      "smelled_awful": { "label": "ひどい臭いがした" },
+      "no_toilet_paper": { "label": "トイレットペーパーなし" },
+      "long_wait": { "label": "長い待ち時間" },
+      "emergency_exit_only": { "label": "非常口のみ？" }
+    }
+  }
+}
