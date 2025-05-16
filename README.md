@@ -72,3 +72,4 @@ To get started, take a look at `src/app/page.tsx`.
 - Simple and intuitive icons for features and amenities.
 - Clean and organized layout with a focus on map integration.
 
+# LooView_
