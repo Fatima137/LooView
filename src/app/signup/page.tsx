@@ -118,9 +118,9 @@ export default function SignupPage() {
         </CardHeader>
         <CardContent>
           {/* Google Sign Up Button */}
-          <Button onClick={handleGoogleSignIn} className="w-full mb-4" variant="outline">
+          {/* <Button onClick={handleGoogleSignIn} className="w-full mb-4" variant="outline">
             Sign up with Google
-          </Button>
+          </Button> */}
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
             <div className="space-y-2">
               <Label htmlFor="displayName">{t('signup.displayNameLabel')}</Label>
