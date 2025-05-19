@@ -1,11 +1,8 @@
-// src/firebase.ts
 import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth'; // Import the Auth service
-// import { getAuth } from 'firebase/auth'; // Added import for Authentication
-import { getFirestore } from 'firebase/firestore'; // Zorg ervoor dat deze import er is!
-import { Database } from 'lucide-react';
+import { getAuth } from 'firebase/auth';
+import { getFirestore } from 'firebase/firestore';
+import { getAnalytics, isSupported } from 'firebase/analytics'; // 👈 Add this
 
-// Jouw web app's Firebase configuration (gevonden in de console)
 const firebaseConfig = {
   apiKey: "AIzaSyBUR01CYaHjDCSDozl71wDQief12hRc5V0",
   authDomain: "looview-8225d.firebaseapp.com",
@@ -19,11 +16,15 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
 
-// Initialize Firebase Authentication and get a reference to the service
-const auth = getAuth(app); // Initialize Auth
+// 👇 Enable analytics only if it's supported (browser environment)
+let analytics;
+if (typeof window !== 'undefined') {
+  isSupported().then((yes) => {
+    if (yes) analytics = getAnalytics(app);
+  });
+}
 
-// Initialize Cloud Firestore and get a reference to the service
-const db = getFirestore(app); // <--- Zorg ervoor dat deze lijn aanwezig is en db wordt geëxporteerd
-
-export { app, auth, db }; // Exporteer app, auth, and db
+export { app, auth, db, analytics };

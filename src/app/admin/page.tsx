@@ -1,12 +1,42 @@
-
 "use client";
 
 import UserManagementTable from '@/components/admin/user-management-table';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Users, Settings, MessageSquareWarning, MapPin } from 'lucide-react';
+import { useAuth } from '@/context/AuthContext';
+import { useEffect, useState } from 'react';
+import { Loader2 } from 'lucide-react';
 
 export default function AdminPage() {
+  const { authUser, userProfile, loading } = useAuth();
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient || loading) {
+    return (
+      <div className="flex flex-grow items-center justify-center p-4">
+        <Loader2 className="animate-spin h-8 w-8 text-primary" />
+      </div>
+    );
+  }
+
+  if (!authUser || !userProfile || !userProfile.isAdmin) {
+    return (
+      <div className="flex flex-grow items-center justify-center p-4">
+        <Card className="max-w-md w-full text-center">
+          <CardHeader>
+            <CardTitle>Not authorized</CardTitle>
+            <CardDescription>You do not have permission to access the admin console.</CardDescription>
+          </CardHeader>
+        </Card>
+      </div>
+    );
+  }
+
   return (
     <div className="flex-grow p-4 md:p-8 space-y-8 bg-muted/40">
       <header className="mb-8">

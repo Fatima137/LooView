@@ -3,7 +3,7 @@ import type { NextRequest } from 'next/server';
 
 // Add paths that should be protected (require authentication)
 const protectedPaths = [
-  '/admin',
+  // '/admin',
   // Add more protected paths here
 ];
 
@@ -24,7 +24,8 @@ export function middleware(request: NextRequest) {
   }
 
   // Redirect unauthenticated users to login
-  if (!isAuthenticated && protectedPaths.some(path => pathname.startsWith(path))) {
+  // && protectedPaths.some(path => pathname.startsWith(path))
+  if (!isAuthenticated && protectedPaths.some(path => pathname.startsWith(path)) ) {
     const loginUrl = new URL('/login', request.url);
     loginUrl.searchParams.set('redirect', pathname);
     return NextResponse.redirect(loginUrl);

@@ -1,13 +1,12 @@
-
 "use client";
 
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
-import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
+import { createUserWithEmailAndPassword, updateProfile, signInWithPopup } from 'firebase/auth';
 import { doc, setDoc } from 'firebase/firestore';
-import { auth, db } from '@/lib/firebase';
+import { auth, db, googleProvider } from '@/lib/firebase';
 import type { UserProfile } from '@/lib/types';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -91,6 +90,22 @@ export default function SignupPage() {
     }
   };
 
+  // Google Sign-In handler
+  const handleGoogleSignIn = async () => {
+    try {
+      await signInWithPopup(auth, googleProvider);
+      // Optionally, redirect or show a success message here
+      router.push('/');
+    } catch (error) {
+      console.error(error);
+      toast({
+        variant: 'destructive',
+        title: t('signup.errorTitle'),
+        description: t('signup.errorDefault'),
+      });
+    }
+  };
+
   return (
     <div className="flex flex-grow items-center justify-center p-4 bg-gradient-to-br from-primary/5 via-background to-background">
       <Card className="w-full max-w-md shadow-2xl border border-border">
@@ -102,6 +117,10 @@ export default function SignupPage() {
           <CardDescription>{t('signup.description')}</CardDescription>
         </CardHeader>
         <CardContent>
+          {/* Google Sign Up Button */}
+          <Button onClick={handleGoogleSignIn} className="w-full mb-4" variant="outline">
+            Sign up with Google
+          </Button>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
             <div className="space-y-2">
               <Label htmlFor="displayName">{t('signup.displayNameLabel')}</Label>

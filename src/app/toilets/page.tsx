@@ -21,6 +21,7 @@ export default function ToiletsListPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+
     async function fetchToilets() {
       const querySnapshot = await getDocs(collection(db, "toilets"));
       const toiletsData = querySnapshot.docs.map((doc) => ({
